@@ -40,11 +40,11 @@ useEffect(()=>{
                 <p>Javascript คือภาษาโปรแกรมชนิดหนึ่งซึ่งปรากฎตัวครั้งแรกเมื่อ วันที่ 4 ธันวาคม 2538</p>
             </div>
             <div className="sj">
-                <div  className="fe"><NavLink to='/javascript/#second'></NavLink></div>
-                <div  className="be"><NavLink to='/javascript/#backend'></NavLink></div>
+                <div  className="fe"><NavLink to='/javascript#second'></NavLink></div>
+                <div  className="be"><NavLink to='/javascript#backend'></NavLink></div>
                 <div className="minisj">
-                    <div className="ml"><NavLink to='/javascript/#mljs'></NavLink></div>
-                    <div className="iot"><NavLink to='/javascript/#iotjs'></NavLink></div>
+                    <div className="ml"><NavLink to='/javascript#mljs'></NavLink></div>
+                    <div className="iot"><NavLink to='/javascript#iotjs'></NavLink></div>
                 </div>
             </div>
         </div>
