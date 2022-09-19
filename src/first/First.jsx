@@ -14,7 +14,7 @@ function First() {
     <div className='first' id='firstt'>
         <img className='ilogo' src={mylogo}  />
         <img className='tlogo' src={textlogo}/>
-        <p>WELCOME TO DOSE VERSION 1.0.0</p>
+        <p>WELCOME TO DOSE VERSION 1.0.1</p>
         <button id='fbtn' onClick={Close}>EXPLORE!!</button>
     </div>
   )
