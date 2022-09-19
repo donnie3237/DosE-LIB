@@ -47,9 +47,9 @@ useEffect(()=>{
                 </div>
             </div>
         </div>
-        <div className="sec sec1" id='second'>
+        <div className="sec sec1" >
             <h1>ClientSide Javascript</h1>
-            <div className="react" >
+            <div className="react" id='second'>
                 <img src={reactpic}  />
                 reactJS,React Native for IOS,Android,Web app 
             </div>
@@ -62,9 +62,9 @@ useEffect(()=>{
                 for desktop App (Windows,MacOS,Linux system)
             </div>
         </div>
-        <div className="sec sec2" id='backend'>
+        <div className="sec sec2" >
             <h1>ServerSide Javascript</h1>
-            <div className="nest">
+            <div className="nest" id='backend'>
                 <img src={nestjs} />
                 TypeScript language for good server.
             </div>
@@ -73,14 +73,14 @@ useEffect(()=>{
                 most popular back-end framework for Javascript
             </div>
         </div>
-        <div className="sec sec3" id='mljs'>
-            <h2>MachineLearning Javascript</h2>
+        <div className="sec sec3" >
+            <h2 id='mljs'>MachineLearning Javascript</h2>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
         </div>
-        <div className="sec sec4" id='iiotjs'>
+        <div className="sec sec4" >
             <h1>IOT Javascript</h1>
-            <div className="ndre">
+            <div className="ndre" id='iiotjs'>
                 <img src={nodered} />
                 javascript framework run on nodeJS for good micro controller
             </div>
