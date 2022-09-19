@@ -1,0 +1,120 @@
+.contain{
+    scroll-snap-type: y mandatory;
+    height: 90vh;
+    overflow-y: scroll;
+}
+.sec{
+    height: 90vh;
+    width: 100vw;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec0{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    background-color: aqua;
+}
+.sec2{
+    background-color: rgb(70, 70, 79);
+}
+.sec3{
+    background-color: blueviolet;
+}
+.sec4{
+    background-color: brown;
+}
+.sec5{
+    background-color: aqua;
+}
+.sec6{
+    background-color: antiquewhite;
+}
+.sec6 input{
+    height: 20px;
+    outline: none;
+}
+.fj{
+    display: flex;
+}
+.fj img{
+    width: 50vw;
+    height: 20vh;
+}
+.fj p{
+    color: aliceblue;
+    margin: auto 5vw;
+}
+.sj{
+    width: 100vw;
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.sj .fe{
+    background:url(./FE.png);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    display: flex;
+}
+.sj .be{
+    height: 25vh;
+    background:url(./BE.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.minisj{
+    height: 20vh;
+    display: flex;
+    background-color: brown;
+}
+.ml{
+    width: 50%;
+    background:url(./ml.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.iot{
+    width: 50%;
+    background:url(./iot.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.fe a{
+    width: 100%;
+    height: 100%;
+}
+.be a{
+    width: 100%;
+    height: 100%;
+}
+.ml a{
+    width: 100%;
+    height: 100%;
+}
+.iot a{
+    width: 100%;
+    height: 100%;
+}
+.sec1 img{
+    width: 100px;
+}
+.sec2 img{
+    width: 100px;
+}
+.sec3 img{
+    width: 100vw;
+}
+.sec4 img{
+    width: 100px;
+}

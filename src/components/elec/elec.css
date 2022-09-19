@@ -1,0 +1,47 @@
+.mainelec{
+    height: 90vh;
+    position: relative;
+    background-color: rgb(129, 126, 132);
+    overflow-y: hidden;
+}
+.mainelec img{
+    height: 50vh;
+    position: absolute;
+    left: -20vw;
+    bottom: -50px;
+}
+.cropp{
+    position: absolute;
+    top: 15vh;
+    padding:0 20vw;
+}
+.cropp p{
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.contentelec{
+    background-color: rgb(255, 255, 255);
+    height: 200vh;
+}
+.founder h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.founder{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+}
+.founder div{
+    color: rgb(255, 255, 255);
+}
+.future{
+    height: 100vh;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+}

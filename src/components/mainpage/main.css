@@ -1,0 +1,161 @@
+.mainp{
+    width: 100vw;
+    height: 100%;
+    background:url(./f1298d4a9ffd626b9fb0ca2689d309f9.jpg);
+    background-size: cover;
+}
+.parallax{
+    height: 90vh;
+    width: 100vw;
+    background: url(./305848359_804645737625108_8966807087779226718_n.png);
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.parallax h2{
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    top: 0vh;
+    margin: 0;
+    font-size: 20px;
+    z-index: 10;
+}
+.path{
+    display: flex;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+.parallax p{
+    position:absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 1em;
+}
+.about{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    margin-bottom: 10vh;
+    flex-direction: column;
+}
+.parallax2{
+    height: 90vh;
+    width: 100vw;
+    background: url(./slide_1.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax2 p{
+    position: sticky;
+    top: 45vh;
+    background-color: aliceblue;
+    width: 100vw;
+    text-align: center;
+    padding: 5vh 0;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0vh;
+}
+.path div{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.path p{
+    padding: 5px 10vw;
+    font-size: 18px;
+    text-align: center;
+}
+.jss{
+    background-color: yellow;
+}
+.ene{ background-color: rgb(6, 235, 56);
+}
+.thu{
+    background-color: rgb(164, 10, 56);
+}
+.parallax1{
+    height: 90vh;
+    width: 100vw;
+    background: url(./lib.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ebook{
+    height: 90vh;
+}
+.cropbook{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book{
+    background-color: aqua;
+    width: 40vw;
+    height: 20vh;
+    margin: 5px;
+}
+.bline1{
+    display: flex;
+}
+.bline2{
+    display: flex;
+}
+.load{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: aliceblue;
+}
+.cropeiei{
+    width: 100vw;
+    height: 100%;
+}
+.about img{
+    width: 100%;
+}
+.gicon{
+    height: 150px;
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.ticon{
+    height: 150px;
+    background-color: rgb(10, 142, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
