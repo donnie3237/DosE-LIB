@@ -12,6 +12,7 @@ import rapi from './rapi.png'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
+import { NavLink } from 'react-router-dom'
 
 AOS.init();
 
@@ -39,11 +40,11 @@ useEffect(()=>{
                 <p>Javascript คือภาษาโปรแกรมชนิดหนึ่งซึ่งปรากฎตัวครั้งแรกเมื่อ วันที่ 4 ธันวาคม 2538</p>
             </div>
             <div className="sj">
-                <div  className="fe"><a href=".sec1"></a></div>
-                <div  className="be"><a href=".sec2"></a></div>
+                <div  className="fe"><NavLink to='/javascript/#second'></NavLink></div>
+                <div  className="be"><NavLink to='/javascript/#backend'></NavLink></div>
                 <div className="minisj">
-                    <div className="ml"><a href=".sec3"></a></div>
-                    <div className="iot"><a href=".sec4"></a></div>
+                    <div className="ml"><NavLink to='/javascript/#mljs'></NavLink></div>
+                    <div className="iot"><NavLink to='/javascript/#iotjs'></NavLink></div>
                 </div>
             </div>
         </div>
