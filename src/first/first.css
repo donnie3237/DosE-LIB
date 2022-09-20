@@ -45,7 +45,5 @@
     }
     .first{
         background-color: red;
-        position: absolute;
-        left: 0;
     }
 }
