@@ -10,6 +10,14 @@ function First() {
         closee.style.transform = 'translateX(-100vw)'
         closee.style.transition = 'all 0.5s'
     }
+    function refresh(){
+      const reswidth = Screen.width;
+
+      if(reswidth>550){
+        Location.reload()
+      }else{}
+    }
+    setInterval(refresh,5000)
   return (
     <div className='first' id='firstt'>
         <img className='ilogo' src={mylogo}  />

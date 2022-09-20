@@ -2,8 +2,8 @@ import React from 'react'
 import { useState,useEffect} from 'react';
 import './main.css'
 import { NavLink } from 'react-router-dom';
-import gith from './IMG_20220915_225203.jpg'
-import twtr from './Screenshot_2022-09-15-22-53-09-77_f9ee0578fe1cc94de7482bd41accb329.jpg'
+import gith from './img/IMG_20220915_225203.jpg'
+import twtr from './img/Screenshot_2022-09-15-22-53-09-77_f9ee0578fe1cc94de7482bd41accb329.jpg'
 function Mainpage() {
     setInterval(myTime,1000);
     function myTime(){
@@ -21,16 +21,16 @@ function Mainpage() {
             สวัสดี วันนี้เราจะมาเชื่อมโยงระหว่าง 
             วิศวกรรมไฟฟ้า วิศวกรรมซอฟต์แวร์/ฮาร์ดแวร์ และพลังงานกัน
           </p>
-          <div className="jss">
+          <NavLink to='/javascript' className="jss">
             <h1>Javascript</h1>
-          </div>
-          <div className="ene">
+          </NavLink>
+          <NavLink to='/solar' className="ene">
             <h1>Solar,Batterry</h1>
 
-          </div>
-          <div className="thu">
+          </NavLink>
+          <NavLink to='/electric' className="thu">
             <h1>Electric</h1>
-          </div>
+          </NavLink>
         </div>
         <div className="parallax1">
         </div>

@@ -1,13 +1,11 @@
 .mainp{
     width: 100vw;
     height: 100%;
-    background:url(./f1298d4a9ffd626b9fb0ca2689d309f9.jpg);
-    background-size: cover;
 }
 .parallax{
     height: 90vh;
     width: 100vw;
-    background: url(./305848359_804645737625108_8966807087779226718_n.png);
+    background: url(./img/305848359_804645737625108_8966807087779226718_n.png);
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -50,7 +48,7 @@
 .parallax2{
     height: 90vh;
     width: 100vw;
-    background: url(./slide_1.jpg);
+    background: url(./img/slide_1.jpg);
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -73,7 +71,27 @@
     font-weight: 700;
     margin-bottom: 0vh;
 }
-.path div{
+.path .ene{
+    text-decoration: none;
+    color: black;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.path .jss{
+    text-decoration: none;
+    color: black;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.path .thu{
+    text-decoration: none;
+    color: black;
     width: 100vw;
     height: 20vh;
     display: flex;
@@ -86,17 +104,23 @@
     text-align: center;
 }
 .jss{
-    background-color: yellow;
+    background:url(./img/js.png);
+    background-position-x: -120px;
+    background-position-y: center;
+    background-size: cover;
 }
-.ene{ background-color: rgb(6, 235, 56);
+.ene{ background:url(./img/solar.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .thu{
-    background-color: rgb(164, 10, 56);
+    background:url(./img/elec.jpg);
+    background-size: cover;
 }
 .parallax1{
-    height: 90vh;
+    height: 70vh;
     width: 100vw;
-    background: url(./lib.jpg);
+    background: url(./img/lib.jpg);
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -108,17 +132,17 @@
     align-items: center;
 }
 .ebook{
-    height: 90vh;
+    height: 70vh;
+    background-color: aliceblue;
 }
 .cropbook{
     height: 60vh;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .book{
-    background-color: aqua;
+    background-color: rgb(129, 135, 135);
     width: 40vw;
     height: 20vh;
     margin: 5px;
@@ -153,9 +177,15 @@
 }
 .ticon{
     height: 150px;
-    background-color: rgb(10, 142, 145);
+    background-color: rgb(246, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 1px solid black;
+}
+.ebook h2{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 0;
 }

@@ -6,7 +6,7 @@
 }
 .crophead{
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   bottom: 0;
   height: 10vh;
 }
@@ -17,9 +17,4 @@
   background-color: black; 
   position: absolute;
   display: flex;
-}
-@media screen and(max-width:500px) {
-  .firstlook{
-    background-color: aqua;
-  }
 }
