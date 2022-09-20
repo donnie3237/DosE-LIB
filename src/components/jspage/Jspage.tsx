@@ -12,7 +12,6 @@ import rapi from './rapi.png'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
-import { NavLink } from 'react-router-dom'
 
 AOS.init();
 
@@ -80,7 +79,7 @@ useEffect(()=>{
             <div className="raspi">
                 <img src={rapi} />
                 Good board for use Machine Learning and IOT work on localhost
-                , it is micor controller RAM>1GB ROM>1GB 
+                , it is micor controller RAM{'>'}1GB ROM{'>'}1GB 
             </div>
         </div>
         <div className="sec sec5" >

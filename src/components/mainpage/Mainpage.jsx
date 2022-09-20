@@ -23,14 +23,14 @@ function Mainpage() {
             สวัสดี วันนี้เราจะมาเชื่อมโยงระหว่าง 
             วิศวกรรมไฟฟ้า วิศวกรรมซอฟต์แวร์/ฮาร์ดแวร์ และพลังงานกัน
           </p>
-          <NavLink to='/javascript' className="jss" data-aos='fade-left'>
+          <NavLink to='/javascript' className="jss" data-aos='fade-up'>
             <h1>Javascript</h1>
           </NavLink>
-          <NavLink to='/solar' className="ene" data-aos='fade-right'>
+          <NavLink to='/solar' className="ene" data-aos='fade-down'>
             <h1>Solar,Batterry</h1>
 
           </NavLink>
-          <NavLink to='/electric' className="thu" data-aos='fade-left'>
+          <NavLink to='/electric' className="thu" data-aos='fade-up'>
             <h1>Electric</h1>
           </NavLink>
         </div>
@@ -42,11 +42,11 @@ function Mainpage() {
             <div className="ccbook">
               <div className="bline1">
                 <div data-aos='fade-out' className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
-                <div className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
+                <div data-aos='fade-out'  className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
               </div>
               <div className="bline2">
-                <div className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
-                <div className="book book4"><a href="">more</a></div>
+                <div data-aos='fade-out'  className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
+                <div data-aos='fade-out'  className="book book4"><a href="">more</a></div>
               </div>
             </div>
           </div>
