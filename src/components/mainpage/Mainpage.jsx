@@ -40,15 +40,13 @@ function Mainpage() {
             <div className="ccbook">
               <div className="bline1">
                 <div className="book book1"><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc%3Ffbclid%3DIwAR1m3qabqdNz5JVUGDUt6_hZuisSEUXsfRBIY3ulRHNgMUHbvHmuY4NmlLo&h=AT3Zn75IRU8J4S39FNR342F1FIZ3XNt6-ffkagC0odRKmBJp2RwbFLf4sdtsXSPEWqqqmWMl57N5-m9fpT8f8fuu8JKNnr_zxS4uocNwZwWtqmtZ7M5ol3vNSRMGs70v5tMFWw" target='blank'>Electric</a></div>
-                <div className="book book2"></div>
+                <div className="book book2"><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq%3Ffbclid%3DIwAR3R97En2_auAxBm9rAJAVj842ZJ2IXOlftVjmanTDNoOPHZm135J3QBGjg&h=AT0euSYUICfZ38nylcU5g0DWAuywnA2ao2fm8xnK6xdzVBd-v7sfgKzUbEhFNysFN4s8_P3ZhewrvZCJ4tyd5FGHKB992B26EFd1nfA0xUZb6VMYYKQ6Imjh30skX1ZF9fH48Q" target='blank'>Energy</a></div>
               </div>
               <div className="bline2">
-                <div className="book book3"></div>
-                <div className="book book4"></div>
+                <div className="book book3"><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM%3Ffbclid%3DIwAR0DMwrVOy7nr29FerlxGmHF-MLrPhKkG4WuB3nXhtjWY2LIuy5tXM4ZUkY&h=AT0euSYUICfZ38nylcU5g0DWAuywnA2ao2fm8xnK6xdzVBd-v7sfgKzUbEhFNysFN4s8_P3ZhewrvZCJ4tyd5FGHKB992B26EFd1nfA0xUZb6VMYYKQ6Imjh30skX1ZF9fH48Q" target='blank'>Javascript</a></div>
+                <div className="book book4"><a href="">more</a></div>
               </div>
             </div>
-          </div>
-          <div className="zone">
           </div>
         </div>
         <div className="parallax2">

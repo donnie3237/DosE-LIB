@@ -132,13 +132,13 @@
     align-items: center;
 }
 .ebook{
-    height: 90vh;
+    height: 65vh;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
 }
 .cropbook{
-    height: 20vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +146,7 @@
 .book{
     background-color: rgb(129, 135, 135);
     width: 40vw;
-    height: 5vh;
+    height: 20vh;
     margin: 5px;
 }
 .bline1{
@@ -190,8 +190,4 @@
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 0;
-}
-.zone{
-    height: 75vh;
-    background-color: aqua;
 }
