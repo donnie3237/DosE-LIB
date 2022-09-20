@@ -14,8 +14,9 @@ function First() {
     <div className='first' id='firstt'>
         <img className='ilogo' src={mylogo}  />
         <img className='tlogo' src={textlogo}/>
-        <p>WELCOME TO DOSE VERSION 1.0.0</p>
+        <p className='version'>WELCOME TO DOSE VERSION 1.0.0</p>
         <button id='fbtn' onClick={Close}>EXPLORE!!</button>
+        <p className='mw'>เราไม่สนับสนุนdevice ของคุณ หากคุณใช้แนวนอน กรุณาใช้มือถือแนวตั้ง</p>
     </div>
   )
 }

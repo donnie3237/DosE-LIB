@@ -27,3 +27,23 @@
 .first p{
     color: aliceblue;
 }
+.mw{
+    display: none;
+}
+@media  screen and (min-width:500px) {
+    .first button{
+        display: none;
+    }
+    .ilogo{
+        display: none;
+    }
+    .mw{
+        display: flex;
+    }
+    .version{
+        display: none;
+    }
+    .first{
+        background-color: red;
+    }
+}

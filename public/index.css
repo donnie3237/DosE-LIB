@@ -5,3 +5,9 @@ body{
     margin: 0%;
     padding: 0%;
 }
+@media screen and (min-width:450px) {
+    .ilogo{
+        width: 10px;
+        height: 10px;
+    }
+}
