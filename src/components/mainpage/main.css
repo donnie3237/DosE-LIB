@@ -134,6 +134,8 @@
 .ebook{
     height: 70vh;
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 .cropbook{
     height: 60vh;
