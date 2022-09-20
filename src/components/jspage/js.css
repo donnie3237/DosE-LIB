@@ -41,6 +41,9 @@
 }
 .fj{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .fj img{
     width: 50vw;
@@ -48,7 +51,8 @@
 }
 .fj p{
     color: aliceblue;
-    margin: auto 5vw;
+    margin: 10vh 15vw;
+    text-align: center;
 }
 .sj{
     width: 100vw;
