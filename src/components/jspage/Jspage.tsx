@@ -52,11 +52,18 @@ useEffect(()=>{
             </div>
             <div className="next" >
                 <img src={nextjs}/>
-                more expert with server side rendering framework
+                <div className="cropre">
+                    <p>more expert with server side rendering framework</p>
+                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                </div>
             </div>
             <div className="electron">
                 <img src={electron} />
-                for desktop App (Windows,MacOS,Linux system)
+                
+                <div className="cropre">
+                    <p>for desktop App (Windows,MacOS,Linux system)</p>
+                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                </div>
             </div>
         </div>
         <div className="sec sec2" >

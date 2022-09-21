@@ -18,7 +18,9 @@
     flex-direction: column;
 }
 .sec1{
-    background-color: aqua;
+    background:url(./FE.png);
+    background-size: cover;
+    background-position: center 10px;
 }
 .sec2{
     background-color: rgb(70, 70, 79);
@@ -115,7 +117,7 @@
     margin-right: 25px;
 }
 .sec1 div{
-    background-color: rgb(244, 163, 163);
+    background-color: rgb(78, 77, 77);
     margin: 10px 0;
     padding: 10px 7vw;
     display: flex;
