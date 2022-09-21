@@ -20,7 +20,7 @@
 .sec1{
     background:url(./FE.png);
     background-size: cover;
-    background-position: center 10px;
+    background-position: center;
 }
 .sec2{
     background-color: rgb(70, 70, 79);
