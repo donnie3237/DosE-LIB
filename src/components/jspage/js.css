@@ -24,6 +24,7 @@
     background:url(./BE.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 .sec2{
     background-color: rgb(70, 70, 79);
