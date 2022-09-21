@@ -3,6 +3,9 @@
     height: 90vh;
     overflow-y: scroll;
 }
+.sec h1{
+    color: wheat;
+}
 .sec{
     height: 90vh;
     width: 100vw;
@@ -18,7 +21,7 @@
     flex-direction: column;
 }
 .sec1{
-    background:url(./FE.png);
+    background:url(./BE.jpg);
     background-size: cover;
     background-position: center;
 }
