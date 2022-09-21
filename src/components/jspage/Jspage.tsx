@@ -62,7 +62,7 @@ useEffect(()=>{
                 
                 <div className="cropre">
                     <p>for desktop App (Windows,MacOS,Linux system)</p>
-                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                    <NavLink to='/javascript'>EiEi</NavLink>
                 </div>
             </div>
         </div>
