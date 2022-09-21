@@ -46,8 +46,8 @@
     justify-content: center;
 }
 .fj img{
-    width: 50vw;
-    height: 20vh;
+    width: 200px;
+    height: 200px;
 }
 .fj p{
     color: aliceblue;
@@ -111,7 +111,29 @@
     height: 100%;
 }
 .sec1 img{
-    width: 100px;
+    height: 60%;
+    margin-right: 25px;
+}
+.sec1 div{
+    background-color: rgb(244, 163, 163);
+    margin: 10px 0;
+    padding: 10px 7vw;
+    display: flex;
+    height: 17vh;
+    align-items: center;
+}
+.cropre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clbtn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
 }
 .sec2 img{
     width: 100px;

@@ -148,6 +148,14 @@
     width: 40vw;
     height: 20vh;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: aliceblue;
 }
 .bline1{
     display: flex;

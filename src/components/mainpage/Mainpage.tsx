@@ -41,12 +41,12 @@ function Mainpage() {
           <div className="cropbook">
             <div className="ccbook">
               <div className="bline1">
-                <div data-aos='fade-out' className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
-                <div data-aos='fade-out'  className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
+                <div data-aos='fade-down' className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
+                <div data-aos='fade-down'  className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
               </div>
               <div className="bline2">
-                <div data-aos='fade-out'  className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
-                <div data-aos='fade-out'  className="book book4"><a href="">more</a></div>
+                <div data-aos='fade-up'  className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
+                <div data-aos='fade-up'  className="book book4"><a href="">more</a></div>
               </div>
             </div>
           </div>

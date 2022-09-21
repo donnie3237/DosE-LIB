@@ -1,4 +1,4 @@
-import {React,useState,useEffect} from 'react'
+import {useState,useEffect} from 'react'
 import './js.css'
 import jslogo from './logojs.png'
 import reactpic from './react.png'
@@ -12,6 +12,7 @@ import rapi from './rapi.png'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
+import { NavLink } from 'react-router-dom'
 
 AOS.init();
 
@@ -43,7 +44,11 @@ useEffect(()=>{
             <h1>ClientSide Javascript</h1>
             <div className="react" id='second'>
                 <img src={reactpic}  />
-                reactJS,React Native for IOS,Android,Web app 
+                <div className="cropre">
+                    <p>reactJS,React Native for IOS,Android,Web app</p>
+                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                </div>
+                
             </div>
             <div className="next" >
                 <img src={nextjs}/>
