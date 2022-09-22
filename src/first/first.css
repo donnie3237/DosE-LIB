@@ -30,7 +30,7 @@
 .mw{
     display: none;
 }
-@media  screen and (min-width:500px) {
+/* @media  screen and (min-width:500px) {
     .first button{
         display: none;
     }
@@ -46,4 +46,4 @@
     .first{
         background-color: red;
     }
-}
+} */

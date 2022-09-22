@@ -13,6 +13,7 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
 import { NavLink } from 'react-router-dom'
+import mlVideo from './img/VID_20220922113359.mp4'
 
 AOS.init();
 
@@ -81,8 +82,7 @@ useEffect(()=>{
             <h1 id='mljs'>MachineLearning Javascript</h1>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
-            <video autoPlay loop muted playsInline src='./img/VID_20220922113359.mp4'>
-            </video>
+            <video src={mlVideo} autoPlay muted loop/>
         </div>
         <div className="sec sec4" >
             <h1>IOT Javascript</h1>

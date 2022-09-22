@@ -51,9 +51,14 @@
 }
 .sec3{
     background-color: blueviolet;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
 }
 .sec4{
-    background-color: brown;
+    background:url(./img/iot.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .sec5{
     background-color: aqua;
@@ -135,6 +140,10 @@
     align-items: center;
     background-color: rgb(128, 126, 130); 
 }
-video{
-    background-color: aqua;
+.sec3 video{
+    height: 100vw;
+    position: absolute;
+    bottom: -10vh;
+    transform: rotate(90deg);
+    border-top: 3px solid black;
 }
