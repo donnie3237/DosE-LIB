@@ -23,15 +23,17 @@ function Mainpage() {
             สวัสดี วันนี้เราจะมาเชื่อมโยงระหว่าง 
             วิศวกรรมไฟฟ้า วิศวกรรมซอฟต์แวร์/ฮาร์ดแวร์ และพลังงานกัน
           </p>
-          <NavLink to='/javascript' className="jss" data-aos='fade-up'>
+          <NavLink to='/javascript' className="jss" data-aos='fade-left'>
             <h1>Javascript</h1>
+            <div className="arrow1">{'>'}</div>
           </NavLink>
-          <NavLink to='/solar' className="ene" data-aos='fade-down'>
+          <NavLink to='/solar' className="ene" data-aos='fade-right'>
             <h1>Solar,Batterry</h1>
-
+            <div className="arrow">{'>'}</div>
           </NavLink>
-          <NavLink to='/electric' className="thu" data-aos='fade-up'>
+          <NavLink to='/electric' className="thu" data-aos='fade-left'>
             <h1>Electric</h1>
+            <div className="arrow2">{'>'}</div>
           </NavLink>
         </div>
         <div className="parallax1">

@@ -1,14 +1,14 @@
 import {useState,useEffect} from 'react'
 import './js.css'
-import jslogo from './logojs.png'
-import reactpic from './react.png'
-import electron from './electron.png'
-import nextjs from './next.png'
-import nestjs from './nest.png'
-import expresss from './express.png'
-import tfjs from './tfjs.png'
-import nodered from './nedered.png'
-import rapi from './rapi.png'
+import jslogo from './img/logojs.png'
+import reactpic from './img/react.png'
+import electron from './img/electron.png'
+import nextjs from './img/next.png'
+import nestjs from './img/nest.png'
+import expresss from './img/express.png'
+import tfjs from './img/tfjs.png'
+import nodered from './img/nedered.png'
+import rapi from './img/rapi.png'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
@@ -68,7 +68,7 @@ useEffect(()=>{
         </div>
         <div className="sec sec2" >
             <h1>ServerSide Javascript</h1>
-            <div className="nest" id='backend'>
+            <div className="nest mt10vh" id='backend' >
                 <img src={nestjs} />
                 TypeScript language for good server.
             </div>
@@ -78,9 +78,11 @@ useEffect(()=>{
             </div>
         </div>
         <div className="sec sec3" >
-            <h2 id='mljs'>MachineLearning Javascript</h2>
+            <h1 id='mljs'>MachineLearning Javascript</h1>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
+            <video autoPlay loop muted playsInline src='./img/VID_20220922113359.mp4'>
+            </video>
         </div>
         <div className="sec sec4" >
             <h1>IOT Javascript</h1>
