@@ -13,7 +13,7 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
 import { NavLink } from 'react-router-dom'
-import mlVideo from './img/VID_20220922113359.mp4'
+import mlVideo from './img/VID_20220922203922.mp4'
 
 AOS.init();
 
@@ -71,29 +71,34 @@ useEffect(()=>{
             <h1>ServerSide Javascript</h1>
             <div className="nest mt10vh" id='backend' >
                 <img src={nestjs} />
-                TypeScript language for good server.
+                <p> TypeScript language for good server.</p>
+                <a href="">eiei</a>
             </div>
             <div className="exp">
                 <img src={expresss} />
-                most popular back-end framework for Javascript
+                <p> most popular back-end framework for Javascript</p>
+                <a href="">eiei</a>
             </div>
         </div>
         <div className="sec sec3" >
             <h1 id='mljs'>MachineLearning Javascript</h1>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
+            <a href="">eiei</a>
             <video src={mlVideo} autoPlay muted loop/>
         </div>
         <div className="sec sec4" >
             <h1>IOT Javascript</h1>
-            <div className="ndre" id='iiotjs'>
-                <img src={nodered} />
-                javascript framework run on nodeJS for good micro controller
-            </div>
-            <div className="raspi">
-                <img src={rapi} />
-                Good board for use Machine Learning and IOT work on localhost
-                , it is micor controller RAM{'>'}1GB ROM{'>'}1GB 
+            <div className="iotcrop">
+                <div className="ndre" id='iiotjs'>
+                    <img src={nodered} />
+                    javascript framework run on nodeJS for good micro controller
+                </div>
+                <div className="raspi">
+                    <img src={rapi} />
+                    Good board for use Machine Learning and IOT work on localhost
+                    , it is micor controller RAM{'>'}1GB ROM{'>'}1GB 
+                </div>
             </div>
         </div>
         <div className="sec sec5" >
