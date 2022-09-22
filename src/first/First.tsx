@@ -5,19 +5,11 @@ import textlogo from './305848359_804645737625108_8966807087779226718_n.png'
 
 function First() {
     function Close(){
-        const closee =document.getElementById('firstt')
+        const closee:any =document.getElementById('firstt')
 
         closee.style.transform = 'translateX(-100vw)'
         closee.style.transition = 'all 0.5s'
     }
-    function refresh(){
-      const reswidth = Screen.width;
-
-      if(reswidth>550){
-        Location.reload()
-      }else{}
-    }
-    setInterval(refresh,5000)
   return (
     <div className='first' id='firstt'>
         <img className='ilogo' src={mylogo}  />

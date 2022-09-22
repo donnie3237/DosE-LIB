@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
         <Router>
-          
+        
           <First/>
 
           <Routes>
@@ -30,6 +30,10 @@ function App() {
           <div className='crophead'>
             <Header/>
           </div>
+          <div class="hidd">
+            <div class="hid">เราไม่สนับสนุนอุปกรณ์ของคุณ</div>
+            <div class="hid2">หรือคุณอาจกำลังใช้มือถือแนวนอน(กรุณาใช้แนวตั้ง)</div>
+        </div>
         </Router>
     </div>
   );

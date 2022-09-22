@@ -7,19 +7,3 @@ body{
     touch-action: pan-y;
     scroll-behavior: smooth;
 }
-.hidd{
-    display: hidden;
-}
-@media screen and (min-width:600px) {
-    .hidd{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
-        z-index: 999999;
-        position: absolute;
-        top: 0;
-        background-color: aliceblue;
-    }
-}
