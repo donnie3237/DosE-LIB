@@ -39,6 +39,10 @@ useEffect(()=>{
             <div className="fj">
                 <img src={jslogo} alt="" />
                 <p>Javascript คือภาษาโปรแกรมชนิดหนึ่งซึ่งปรากฎตัวครั้งแรกเมื่อ วันที่ 4 ธันวาคม 2538</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor" class="bi bi-chevron-double-down scrolld" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
             </div>
         </div>
         <div className="sec sec1" >
@@ -47,7 +51,7 @@ useEffect(()=>{
                 <img src={reactpic}  />
                 <div className="cropre">
                     <p>reactJS,React Native for IOS,Android,Web app</p>
-                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                    <NavLink to='/javascript' className='clbtn'>ReactJS</NavLink>
                 </div>
                 
             </div>
@@ -55,7 +59,7 @@ useEffect(()=>{
                 <img src={nextjs}/>
                 <div className="cropre">
                     <p>more expert with server side rendering framework</p>
-                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                    <NavLink to='/javascript' className='clbtn'>NextJS</NavLink>
                 </div>
             </div>
             <div className="electron">
@@ -63,7 +67,7 @@ useEffect(()=>{
                 
                 <div className="cropre">
                     <p>for desktop App (Windows,MacOS,Linux system)</p>
-                    <NavLink to='/javascript' className='clbtn'>EiEi</NavLink>
+                    <NavLink to='/javascript' className='clbtn'>ElectronJS</NavLink>
                 </div>
             </div>
         </div>
@@ -72,19 +76,19 @@ useEffect(()=>{
             <div className="nest mt10vh" id='backend' >
                 <img src={nestjs} />
                 <p> TypeScript language for good server.</p>
-                <a href="">eiei</a>
+                <a href="">NestJS</a>
             </div>
             <div className="exp">
                 <img src={expresss} />
                 <p> most popular back-end framework for Javascript</p>
-                <a href="">eiei</a>
+                <a href="">ExpressJS</a>
             </div>
         </div>
         <div className="sec sec3" >
             <h1 id='mljs'>MachineLearning Javascript</h1>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
-            <a href="">eiei</a>
+            <a href="">TFJS</a>
             <video src={mlVideo} autoPlay muted loop/>
         </div>
         <div className="sec sec4" >
@@ -92,20 +96,30 @@ useEffect(()=>{
             <div className="iotcrop">
                 <div className="ndre" id='iiotjs'>
                     <img src={nodered} />
-                    javascript framework run on nodeJS for good micro controller
+                    <p> javascript framework run on nodeJS for good micro controller</p>
+                    <a href="">NodeRed</a>
                 </div>
                 <div className="raspi">
                     <img src={rapi} />
-                    Good board for use Machine Learning and IOT work on localhost
-                    , it is micor controller RAM{'>'}1GB ROM{'>'}1GB 
+                    <p>Good board for use Machine Learning and IOT work on localhost
+                    , it is micor controller RAM{'>'}1GB ROM{'>'}1GB </p>
+                    <a href="">RaspberryPi</a>
                 </div>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30%" height="30%" fill="currentColor" class="bi bi-robot" viewBox="0 0 16 16">
+                <path d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5ZM3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.58 26.58 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.933.933 0 0 1-.765.935c-.845.147-2.34.346-4.235.346-1.895 0-3.39-.2-4.235-.346A.933.933 0 0 1 3 9.219V8.062Zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a24.767 24.767 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25.286 25.286 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135Z"/>
+                <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z"/>
+            </svg>
         </div>
         <div className="sec sec5" >
-            การเชื่อมโยงการเขียนโปรแกรม กับโซล่าร์เซลล์และไฟฟ้า
+            <h2>การเชื่อมโยงการเขียนโปรแกรม กับโซล่าร์เซลล์และไฟฟ้า</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quis consequatur dolores repellat. Error, vero nesciunt possimus dignissimos dolorum ducimus deleniti nobis quas iusto doloribus hic repellendus modi expedita sint.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quis consequatur dolores repellat. Error, vero nesciunt possimus dignissimos dolorum ducimus deleniti nobis quas iusto doloribus hic repellendus modi expedita sint.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quis consequatur dolores repellat. Error, vero nesciunt possimus dignissimos dolorum ducimus deleniti nobis quas iusto doloribus hic repellendus modi expedita sint.</p>
+
         </div>
         <div className="sec sec6" ><p>Certificate</p>
-        <input type="text" />
+        <input type="text" placeholder='ชื่อขนามสกุลของคุณ' className='input'/>
         <button>รับPDF Cert.</button>
         </div>
         </div>

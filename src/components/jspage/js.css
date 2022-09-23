@@ -62,14 +62,33 @@
     background-position: center;
 }
 .sec5{
-    background-color: aqua;
+    background-color: rgb(192, 224, 224);
+    
+}
+.sec5 h2{
+    margin: 15vw;
+    text-align: center;
+}
+.sec5 p{
+    margin: 5vw;
 }
 .sec6{
-    background-color: antiquewhite;
+    background-color: rgb(195, 170, 11);
 }
 .sec6 input{
-    height: 20px;
+    height: 30px;
     outline: none;
+    width: 70vw;
+    text-align: center;
+}
+.sec6 p{
+    font-size: 28px;
+    font-weight: 600;
+}
+.sec6 button{
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .fj{
     display: flex;
@@ -119,6 +138,11 @@
     text-decoration: none;
     border-radius: 5px;
 }
+.scrolld{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
 .sec2 img{
     width: 120px;
     margin-bottom: 10px;
@@ -129,7 +153,7 @@
     text-align: center;
 }
 .sec2 a{
-    width: 60vw;
+    width: 150px;
     background-color: white;
     height: 40px;
     display: flex;
@@ -138,7 +162,6 @@
     text-decoration: none;
     color: black;
     border-radius: 20px;
-    border: 2px solid #000;
 }
 .sec3 img{
     width: 90vw;
@@ -152,7 +175,7 @@
     width: 150px;
     height: 50px;
     background-color: orange;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,9 +188,26 @@
 .sec4 img{
     width: 100px;
     height: 100px;
-    margin: 15px auto;
+    margin: 30px auto;
 }
-
+.sec4 p{
+    margin: 0 20px;
+}
+.bi-robot{
+    position: absolute;
+    bottom: 5vh;
+    width: 100vw;
+    background-color: rgb(240, 240, 240,0.7);
+}
+.sec4 a{
+    position: absolute;
+    bottom: 25px;
+    padding: 7px 10px;
+    background-color: rgb(254, 254, 254);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
 .sec4 div div{
     width: 50%;
     height: 40vh;
