@@ -26,23 +26,33 @@ useEffect(()=>{
       <div className="cropeiei">
       <div className="fsolar">
         <img src={solar} />
-        <p>แสงและโฟตอน</p>
-        <p>ไดโอด พี-{'>'}เอ็น</p>
-        <p>เซมิคอนดักเตอร์</p>
-        <p>การถ่ายเทพลังงาน</p>
-        <p>แบบจำลองโซลาร์เซลล์</p>
-        <p>การดูดกลืนแสงของสารอนินทรีย์</p>
-        <p>Porovskite</p>
-        <p>ประสิทธิภาพ</p>
+        <div className="row">
+          <p>แสงและโฟตอน</p>
+          <p>ไดโอด พี-{'>'}เอ็น</p>
+          <p>เซมิคอนดักเตอร์</p>
+        </div>
+        <div className="row">
+          <p>การถ่ายเทพลังงาน</p>
+          <p>แบบจำลองโซลาร์เซลล์</p>
+          <p>การดูดกลืนแสงของสารอนินทรีย์</p>
+        </div>
+        <div className="row">
+          <p>Porovskite</p>
+          <p>ประสิทธิภาพ</p>
+        </div>
       </div>
       <div className="sbatter">
         <img src={batterry} />
-        <p >ตัวเก็บประจุ</p>
-        <p >ความต่างศักย์ไฟฟ้า</p>
-        <p >ลิเธียม</p>
-        <p >โซเดียมในเกลือ</p>
-        <p >Solid State</p>
-        <p >DC fast Charge</p>
+        <div className="row">
+          <p >ตัวเก็บประจุ</p>
+          <p >ความต่างศักย์ไฟฟ้า</p>
+          <p >ลิเธียม</p>
+        </div>
+        <div className="row">
+          <p >โซเดียมในเกลือ</p>
+          <p >Solid State</p>
+          <p >DC fast Charge</p>
+        </div>
         <p >Batterry Module</p>
       </div>
       </div>
