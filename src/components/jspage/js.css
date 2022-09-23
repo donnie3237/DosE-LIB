@@ -66,11 +66,12 @@
     
 }
 .sec5 h2{
-    margin: 15vw;
+    margin:10px 15vw;
     text-align: center;
 }
 .sec5 p{
     margin: 5vw;
+    text-align: justify;
 }
 .sec6{
     background-color: rgb(195, 170, 11);
@@ -195,13 +196,15 @@
 }
 .bi-robot{
     position: absolute;
-    bottom: 5vh;
+    bottom: 0;
     width: 100vw;
+    height: 20vh;
+    padding: 5vh 0;
     background-color: rgb(240, 240, 240,0.7);
 }
 .sec4 a{
     position: absolute;
-    bottom: 25px;
+    bottom: -10px;
     padding: 7px 10px;
     background-color: rgb(254, 254, 254);
     text-decoration: none;
@@ -210,7 +213,7 @@
 }
 .sec4 div div{
     width: 50%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     flex-direction: column;
