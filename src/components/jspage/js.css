@@ -40,7 +40,6 @@
 }
 .sec2{
     overflow: hidden;
-    background-color: black;
     height: 90vh;
 }
 .sec2 div{
@@ -145,24 +144,27 @@
     bottom: 20px;
 }
 .sec2 img{
-    width: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .sec2 p{
-    font-size: 18px;
+    font-size: 15px;
     padding: 0 10vw;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 .sec2 a{
-    width: 150px;
-    background-color: white;
-    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: black;
+    color: rgb(248, 247, 249);
+    box-shadow: 0 0 5px white;
+    font-weight: 600;
     border-radius: 20px;
+    border: 1px solid rgb(5, 5, 209);
 }
 .sec3 img{
     width: 90vw;
@@ -192,7 +194,7 @@
     margin: 30px auto;
 }
 .sec4 p{
-    margin: 0 10px;
+    margin: 0 15px;
     font-size: 12px;
 }
 .bi-robot{
@@ -207,10 +209,12 @@
     position: absolute;
     bottom: -5vh;
     padding: 7px 10px;
-    background-color: rgb(254, 254, 254);
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 .sec4 div div{
     width: 50%;
@@ -238,20 +242,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(147, 10, 106);
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid white;
 }
 .nest img{
     border-radius: 50%;
+    width: 15vh;
+
 }
 .exp img{
     border-radius: 50%;
+    width: 15vh;
 }
 .exp{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(95, 54, 136); 
+    background-color: rgb(1, 1, 1); 
 }
 .sec3 video{
     width: 100vw;

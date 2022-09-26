@@ -88,7 +88,7 @@ useEffect(()=>{
             <h1 id='mljs'>MachineLearning Javascript</h1>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
-            <a href="">TFJS</a>
+            <NavLink to='/javascript/tensorflowjs'>TFJS</NavLink>
             <video src={mlVideo} autoPlay muted loop/>
         </div>
         <div className="sec sec4" >
@@ -97,13 +97,13 @@ useEffect(()=>{
                 <div className="ndre" id='iiotjs'>
                     <img src={nodered} />
                     <p> javascript framework run on nodeJS for good micro controller</p>
-                    <a href="">NodeRed</a>
+                    <NavLink to='/javascript/nodered'>NodeRed</NavLink>
                 </div>
                 <div className="raspi">
                     <img src={rapi} />
                     <p>Good board for use Machine Learning and IOT work on localhost
                     , it is micor controller RAM{'>'}1GB ROM{'>'}1GB </p>
-                    <a href="">RaspberryPi</a>
+                    <NavLink to='/javascript/raspberripi'>RaspberryPi</NavLink>
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="30%" height="30%" fill="currentColor" class="bi bi-robot" viewBox="0 0 16 16">
