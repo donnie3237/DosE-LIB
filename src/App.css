@@ -10,14 +10,6 @@
   bottom: 0;
   height: 10vh;
 }
-.firstlook{
-  z-index: 5;
-  width: 100%;
-  height: 100vh;
-  background-color: black; 
-  position: absolute;
-  display: flex;
-}
 .hidd{
   font-size: 1px;
 }

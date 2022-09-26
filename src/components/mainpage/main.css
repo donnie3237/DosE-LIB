@@ -3,7 +3,7 @@
     height: 100%;
 }
 .parallax{
-    height: 90vh;
+    height: 92vh;
     width: 100vw;
     background: url(./img/305848359_804645737625108_8966807087779226718_n.png);
     background-color: black;
@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     color:white;
     display: flex;
+    object-fit: cover;
     justify-content: center;
 }
 .parallax h2{
@@ -21,7 +22,6 @@
     top: 0vh;
     font-size: 20px;
     z-index: 10;
-    margin-left: 3%;
 }
 .detail{
     height: 40px;
@@ -30,7 +30,7 @@
     width: 100vw;
     justify-content: space-between;
     position: absolute;
-    top: 0;
+    top: 10px;
 }
 .detail a{
     margin-right: 5%;
@@ -41,14 +41,10 @@
     height: 100%;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
-    overflow: hidden;
 }
 .parallax p{
-    position:absolute;
+    position: absolute;
     bottom: 10vh;
-    left: 50%;
-    transform: translate(-50%,0);
-    font-size: 1em;
 }
 .about{
     height: 100%;
@@ -253,14 +249,22 @@
 .first{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(5, 0, 3);
     display: flex;
-    position: fixed;
+    background-color: rgb(5, 0, 3);
     z-index: 999;
+    position: fixed;
+    left: -100vw;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    transform: translateX(100vw);
+}
+.first h2{
+    position: absolute;
+    top: 30px;
+    text-align: left;
+    width: 80%;
+    
 }
 .first button{
     width: 300px;
@@ -268,15 +272,14 @@
     border: 1px solid white;
     background-color: black;
     color: aliceblue;
+    position: absolute;
+    bottom: 50px;
 }
-.first .ilogo{
-    width: 300px;
-    height: 300px;
-}
-.tlogo{
-    height: 100px;
-    width: 300px;
-}
+
 .first p{
     color: aliceblue;
+    width: 80%;
+    height: 30vh;
+    position: absolute;
+    top: 100px;
 }

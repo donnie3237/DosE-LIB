@@ -15,13 +15,13 @@ function Mainpage() {
     function Open(){
       const closee:any =document.getElementById('firstt')
 
-      closee.style.transform = 'translateX(0)'
+      closee.style.left = '0'
       closee.style.transition = 'all 0.5s'
   }
   function Close(){
     const closee:any =document.getElementById('firstt')
 
-    closee.style.transform = 'translateX(100vw)'
+    closee.style.left='-100vw'
     closee.style.transition = 'all 0.5s'
 }
 
@@ -29,7 +29,8 @@ function Mainpage() {
     <div className='mainp'>
       <div className="parallax">
         <div className='first' id='firstt'>
-          <p className='version'>WELCOME TO DOSE VERSION 1.0.0</p>
+          <h2>วัตถุประสงค์</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cum vel minima eius illum perspiciatis modi odit possimus, sed repellendus corporis tenetur non corrupti vero. Quod sunt delectus nam reprehenderit.</p>
           <button id='fbtn' onClick={Close}>EXPLORE!!</button>
         </div>
           <div className="detail">
@@ -38,7 +39,8 @@ function Mainpage() {
   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
 </svg></a>
           </div>
-          <p>Scroll Down </p> </div>
+          <p>Scroll Down </p> 
+        </div>
         <div className="path">
           <p>
             สวัสดี วันนี้เราจะมาเชื่อมโยงระหว่าง 

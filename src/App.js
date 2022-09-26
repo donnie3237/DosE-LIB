@@ -1,7 +1,6 @@
 import './App.css';
 import {HashRouter as Router,Route,Routes} from "react-router-dom"
 import Header from './header/Header';
-import First from './first/First.tsx';
 import Mainpage from './components/mainpage/Mainpage.tsx';
 import Jspage from './components/jspage/Jspage.tsx';
 import Solar from './components/solarpage/Solar.tsx';
