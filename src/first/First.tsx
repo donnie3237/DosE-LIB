@@ -16,7 +16,6 @@ function First() {
         <img className='tlogo' src={textlogo}/>
         <p className='version'>WELCOME TO DOSE VERSION 1.0.0</p>
         <button id='fbtn' onClick={Close}>EXPLORE!!</button>
-        <p className='mw'>เราไม่สนับสนุนdevice ของคุณ หากคุณใช้แนวนอน กรุณาใช้มือถือแนวตั้ง</p>
     </div>
   )
 }

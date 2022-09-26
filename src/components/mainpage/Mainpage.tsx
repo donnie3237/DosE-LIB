@@ -12,26 +12,47 @@ function Mainpage() {
       const d = new Date();
       document.getElementById('time').innerHTML = d.toLocaleTimeString();
     }
+    function Open(){
+      const closee:any =document.getElementById('firstt')
+
+      closee.style.transform = 'translateX(0)'
+      closee.style.transition = 'all 0.5s'
+  }
+  function Close(){
+    const closee:any =document.getElementById('firstt')
+
+    closee.style.transform = 'translateX(100vw)'
+    closee.style.transition = 'all 0.5s'
+}
 
   return (
     <div className='mainp'>
       <div className="parallax">
-          <h2 id='time'></h2>
+        <div className='first' id='firstt'>
+          <p className='version'>WELCOME TO DOSE VERSION 1.0.0</p>
+          <button id='fbtn' onClick={Close}>EXPLORE!!</button>
+        </div>
+          <div className="detail">
+            <h2 id='time'></h2>
+            <a onClick={Open}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+</svg></a>
+          </div>
           <p>Scroll Down </p> </div>
         <div className="path">
           <p>
             สวัสดี วันนี้เราจะมาเชื่อมโยงระหว่าง 
             วิศวกรรมไฟฟ้า วิศวกรรมซอฟต์แวร์/ฮาร์ดแวร์ และพลังงานกัน
           </p>
-          <NavLink to='/javascript' className="jss" data-aos='fade-left'>
+          <NavLink to='/javascript' className="jss" >
             <h1>Javascript</h1>
             <div className="arrow1">{'>'}</div>
           </NavLink>
-          <NavLink to='/solar' className="ene" data-aos='fade-right'>
+          <NavLink to='/solar' className="ene" >
             <h1>Solar,Batterry</h1>
             <div className="arrow">{'>'}</div>
           </NavLink>
-          <NavLink to='/electric' className="thu" data-aos='fade-left'>
+          <NavLink to='/electric' className="thu" >
             <h1>Electric</h1>
             <div className="arrow2">{'>'}</div>
           </NavLink>
@@ -43,12 +64,12 @@ function Mainpage() {
           <div className="cropbook">
             <div className="ccbook">
               <div className="bline1">
-                <div data-aos='fade-down' className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
-                <div data-aos='fade-down'  className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
+                <div  className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
+                <div   className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
               </div>
               <div className="bline2">
-                <div data-aos='fade-up'  className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
-                <div data-aos='fade-up'  className="book book4"><a href="">more</a></div>
+                <div   className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
+                <div   className="book book4"><a href="">more</a></div>
               </div>
             </div>
           </div>
