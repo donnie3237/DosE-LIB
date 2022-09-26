@@ -2,7 +2,7 @@ import {React,useState,useEffect} from 'react'
 import './elec.css'
 import nkl from './nikolaTasla.png'
 import HashLoader from 'react-spinners/HashLoader'
-import { NavLink } from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link'
 
 function Elec() {
   const [loading, setLoading] = useState(false);
@@ -24,19 +24,19 @@ useEffect(()=>{
       <div className="cropeiei">
         <div className="cropcon">
           <div className="elecnav">
-            <li><a href="">introdution</a></li>
-            <li><a href="">Basic</a></li>
-            <li><a href="#founder">Founder</a></li>
-            <li><a href="">Future</a></li>
+            <li><HashLink  to="/electric/#intro"> Introdution</HashLink></li>
+            <li><HashLink  to="/electric/#basic">Basic</HashLink></li>
+            <li><HashLink  to="/electric/#founder">Founder</HashLink></li>
+            <li><HashLink  to="/electric/#future">Future</HashLink></li>
           </div>
           <div className="contentelec">
               <div className="mmel">
                 <p>Welcome To Electric World!!</p>
               </div>
-              <div className="intro">
+              <div className="intro" id='intro'>
                 ไฟฟ้าคืออะไร
               </div>
-              <div className="basic">
+              <div className="basic" id='basic'>
                 พื้นฐานไฟฟ้า
               </div>
               <div className="founder" id='founder'>
