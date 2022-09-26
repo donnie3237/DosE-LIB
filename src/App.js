@@ -22,7 +22,7 @@ function App() {
     <div className="App">
         <Router>
         
-          <First/>
+          {/* <First/> */}
 
           <Routes>
             <Route path='/' element={<Mainpage/>}></Route>
