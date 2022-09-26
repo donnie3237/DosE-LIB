@@ -29,7 +29,7 @@
     color: rgb(255, 255, 255);
 }
 .future{
-    height: 100vh;
+    height: 90vh;
     background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
     list-style: none;
     height: 25%;
     background-color: rgb(67, 65, 65);
-    border: 1px solid rgb(247, 245, 245);
+    border-bottom: 1px solid rgb(247, 245, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@
     color: white;
     text-decoration: none;
     width: 100%;
-    height: 15vw;
+    height: 14vw;
     transform: rotate(-90deg);
     padding:0 50px;
     display: flex;
@@ -73,6 +73,15 @@
     justify-content: center;
     font-size: 20px;
     text-transform: uppercase;
+}
+.elecnav a:hover{
+    color: black;
+    font-weight: 700;
+    border-bottom:5px solid rgb(30, 92, 228) ;
+    transition: all .5s;
+}
+.elecnav a:hover li{
+    border-right: 1px solid black;
 
 }
 .mmel{
