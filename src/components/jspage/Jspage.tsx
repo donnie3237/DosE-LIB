@@ -51,7 +51,7 @@ useEffect(()=>{
                 <img src={reactpic}  />
                 <div className="cropre">
                     <p>reactJS,React Native for IOS,Android,Web app</p>
-                    <NavLink to='/javascript' className='clbtn'>ReactJS</NavLink>
+                    <NavLink to='/javascript/react' className='clbtn'>ReactJS</NavLink>
                 </div>
                 
             </div>
@@ -59,7 +59,7 @@ useEffect(()=>{
                 <img src={nextjs}/>
                 <div className="cropre">
                     <p>more expert with server side rendering framework</p>
-                    <NavLink to='/javascript' className='clbtn'>NextJS</NavLink>
+                    <NavLink to='/javascript/next' className='clbtn'>NextJS</NavLink>
                 </div>
             </div>
             <div className="electron">
@@ -67,7 +67,7 @@ useEffect(()=>{
                 
                 <div className="cropre">
                     <p>for desktop App (Windows,MacOS,Linux system)</p>
-                    <NavLink to='/javascript' className='clbtn'>ElectronJS</NavLink>
+                    <NavLink to='/javascript/electron' className='clbtn'>ElectronJS</NavLink>
                 </div>
             </div>
         </div>
@@ -76,12 +76,12 @@ useEffect(()=>{
             <div className="nest mt10vh" id='backend' >
                 <img src={nestjs} />
                 <p> TypeScript language for good server.</p>
-                <a href="">NestJS</a>
+                <NavLink to='/javascript/nest'>NestJS</NavLink>
             </div>
             <div className="exp">
                 <img src={expresss} />
                 <p> most popular back-end framework for Javascript</p>
-                <a href="">ExpressJS</a>
+                <NavLink to='/javascript/express'>ExpressJS</NavLink>
             </div>
         </div>
         <div className="sec sec3" >
