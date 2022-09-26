@@ -192,7 +192,8 @@
     margin: 30px auto;
 }
 .sec4 p{
-    margin: 0 20px;
+    margin: 0 10px;
+    font-size: 12px;
 }
 .bi-robot{
     position: absolute;
@@ -204,7 +205,7 @@
 }
 .sec4 a{
     position: absolute;
-    bottom: -10px;
+    bottom: -5vh;
     padding: 7px 10px;
     background-color: rgb(254, 254, 254);
     text-decoration: none;
