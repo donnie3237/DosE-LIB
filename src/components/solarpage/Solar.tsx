@@ -1,9 +1,10 @@
 import {useState,useEffect} from 'react'
-import solar from './solar.jpg'
-import batterry from './batterry.jpg'
+import solar from './img/solar.jpg'
+import batterry from './img/batterry.jpg'
 import './solar.css'
 import HashLoader from 'react-spinners/HashLoader'
 import 'aos/dist/aos.css'
+import vdotitle from './img/2022-09-27_1664257960589.mp4'
 import AOS from 'aos'
 AOS.init();
 function Solar() {
@@ -24,6 +25,10 @@ useEffect(()=>{
     </div>
       :
       <div className="cropeiei">
+        <div className="mainsolar">
+          <video src={vdotitle} autoPlay loop muted></video>
+          <p>Solar And Batterry</p>
+        </div>
       <div className="fsolar">
         <img src={solar} />
         <div className="row">
