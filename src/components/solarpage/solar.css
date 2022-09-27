@@ -1,41 +1,63 @@
 .solar img{
     width: 100vw;
+    margin: 0;
+    position: sticky;
+    height: 30vh;
 }
 .solar{
     height: 100%;
 }
 .fsolar{
-    background-color: aqua;
-}
-.sbatter{
-    height: 100%;
-    margin-bottom: 10vh;
     background-color: black;
 }
-.sbatter p{
-    height: 10vh;
-    width: 33vw;
-    background-color: aqua;
-    border: 1px solid white;
-}
-.row{
-    display: flex;
-    width: 100%;
-    height: 10vh;
+.sbatter{
+    margin-bottom: 10vh;
+    background-color: black;
+    width: 100vw;
 }
 .fsolar p{
     height: 10vh;
-    width: 33%;
+    width: 100%;
+    margin: 5px 0;
     background-color: rgb(115, 123, 123);
     border: 1px solid white;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.detailsolar p p{
+    width: 10vw;
+    position: absolute;
+    right: 0%;
+    background-color: rgb(171, 176, 171);
+    font-size: 24px;    
+}
+.detailbat p p{
+    width: 10vw;
+    position: absolute;
+    right: 0%;
+    background-color: rgb(171, 176, 171);
+    font-size: 24px;    
+}
+.sbatter p{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(115, 123, 123);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    object-fit: cover;
+    margin:5px 0 ;
 }
 .mainsolar{
     height: 90vh;
     overflow: hidden;
     position:sticky;
     top: 0vh;
-    z-index: -1;
+    z-index: -2;
 }
 .mainsolar video{
     height: 90vh;
@@ -46,15 +68,31 @@
     top: 40%;
     transform:translate(-50%);
     width: 100%;
-    height: 10vh;
+    height: 120px;
     font-size: 2em;
-    font-weight: 900;
+    font-weight: 750;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgb(181, 184, 187,0.7);
     object-fit: cover;
+    text-align: center;
 }
-.cropeiei{
-    scroll-behavior: smooth;
+.mainsolar p a{
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.detailsolar{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
