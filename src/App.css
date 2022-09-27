@@ -11,7 +11,7 @@
   height: 10vh;
 }
 .hidd{
-  font-size: 0px;
+  display: none;
 }
 @media screen and (min-width:600px) {
   .hidd{
