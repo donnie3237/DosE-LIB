@@ -3,6 +3,8 @@ import solar from './img/solar.jpg'
 import batterry from './img/batterry.jpg'
 import './solar.css'
 import HashLoader from 'react-spinners/HashLoader'
+import {HashLink} from 'react-router-hash-link'
+import {NavLink} from 'react-router-dom'
 import 'aos/dist/aos.css'
 import vdotitle from './img/2022-09-27_1664257960589.mp4'
 import AOS from 'aos'
@@ -18,11 +20,11 @@ useEffect(()=>{
     <div className='solar'>
       {loading? 
         <div className="load">
-        <HashLoader
-        color="#000000"
-        size={90}
-      />
-    </div>
+          <HashLoader
+          color="#000000"
+          size={90}
+          />
+        </div>
       :
       <div className="cropeiei">
         <div className="mainsolar">
@@ -31,29 +33,33 @@ useEffect(()=>{
           
         </div>
       <div className="fsolar">
-        <img src={solar} />
-        <div className="detailsolar">
-          <p>แสงและโฟตอน <p>{'>'}</p></p>
-          <p>ไดโอด พี-{'>'}เอ็น<p>{'>'}</p></p>
-          <p>เซมิคอนดักเตอร์<p>{'>'}</p></p>
-          <p>การถ่ายเทพลังงาน<p>{'>'}</p></p>
-          <p>แบบจำลองโซลาร์เซลล์<p>{'>'}</p></p>
-          <p>การดูดกลืนแสงของสารอนินทรีย์<p>{'>'}</p></p>
-          <p>Porovskite<p>{'>'}</p></p>
-          <p>ประสิทธิภาพ<p>{'>'}</p></p>
+        <div className="solar">
+          <details>
+            <summary>Solar</summary>
+            <div className="mydet">
+              <NavLink>แสงและโฟตอน</NavLink>
+              <NavLink>ไดโอด พีเอ็น</NavLink>
+              <NavLink>เซมิคอนดักเตอร์</NavLink>
+              <NavLink>การถ่ายเทพลังงาน</NavLink>
+              <NavLink>แบบจำลองโซลาร์เซลล์</NavLink>
+              <NavLink>การดูดกลืนแสงของสารอนินทรีย์</NavLink>
+              <NavLink>perovskite</NavLink>
+              <NavLink>ประสิทธิภาพ</NavLink>
+            </div>
+          </details>
+          <details>
+            <summary>Battery</summary>
+            <div className="mydet">
+              <NavLink>ตัวเก็บประจุ</NavLink>
+              <NavLink>ความต่างศักย์ไฟฟ้า</NavLink>
+              <NavLink>ลิเธียม</NavLink>
+              <NavLink>โซเดียมในเกลือ</NavLink>
+              <NavLink>Solid state</NavLink>
+              <NavLink>DC fast charge</NavLink>
+              <NavLink>Module</NavLink>
+            </div>
+          </details>
         </div>
-      </div>
-      <div className="sbatter">
-        <img src={batterry}/>
-        <div className="detailbat">
-          <p >ตัวเก็บประจุ<p>{'>'}</p></p>
-          <p >ความต่างศักย์ไฟฟ้า<p>{'>'}</p></p>
-          <p >ลิเธียม<p>{'>'}</p></p>
-          <p >โซเดียมในเกลือ<p>{'>'}</p></p>
-          <p >Solid State<p>{'>'}</p></p>
-          <p >DC fast Charge<p>{'>'}</p></p>
-          <p>Batterry Module<p>{'>'}</p></p>
-          </div>
       </div>
       </div>
       }

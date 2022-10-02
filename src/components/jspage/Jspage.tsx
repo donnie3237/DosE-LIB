@@ -55,14 +55,14 @@ useEffect(()=>{
                     <div className="flex-column">
                         <p>User interface Javascript. </p>
                         <p>ยูเซอร์อินเตอเฟส</p>
-                        <HashLink>Eiei</HashLink>
+                        <HashLink>Client</HashLink>
                     </div>
                 </div>
                 <div className="back-end">
                     <div className="flex-column">
                         <p>Server Javascript. </p>
                         <p>การจัดการเซิร์ฟเวอร์</p>
-                        <HashLink>Eiei</HashLink>
+                        <HashLink>Server</HashLink>
                     </div>
                     <img src={server} alt="" />
                 </div>
@@ -71,14 +71,14 @@ useEffect(()=>{
                     <div className="flex-column">
                         <p>AI and Machine learning</p>
                         <p>AI และ ปัญญาประดิษฐ์</p>
-                        <HashLink>Eiei</HashLink>
+                        <HashLink>ML</HashLink>
                     </div>
                 </div>
                 <div className="iotrasp">
                     <div className="flex-column">
                         <p>im iot js</p>
                         <p>เครื่องจักรกลอัจฉริยะ</p>
-                        <HashLink>Eiei</HashLink>
+                        <HashLink>IOT</HashLink>
                     </div>
                     <img src={iotjs} alt="" />
                 </div>

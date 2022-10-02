@@ -30,8 +30,24 @@ function Mainpage() {
       <div className="parallax">
         <div className='first' id='firstt'>
           <h2>วัตถุประสงค์</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cum vel minima eius illum perspiciatis modi odit possimus, sed repellendus corporis tenetur non corrupti vero. Quod sunt delectus nam reprehenderit.</p>
+          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cum vel minima eius illum perspiciatis modi odit possimus, sed repellendus corporis tenetur non corrupti vero. Quod sunt delectus nam reprehenderit.</h5>
           <button id='fbtn' onClick={Close}>EXPLORE!!</button>
+          <h2>ตารางการอัพเดท</h2>
+          <table>
+            <thead>
+              <th>รายชื่อ</th>
+              <th>วันที่อัพเดท</th>
+              <th>Version</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ระบบ14%</td>
+                <td>2/10/65</td>
+                <td>1.0.0</td>
+              </tr>
+            </tbody>
+          </table>
+          
         </div>
           <div className="detail">
             <h2 id='time'></h2>
