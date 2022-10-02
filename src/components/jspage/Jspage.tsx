@@ -9,15 +9,24 @@ import expresss from './img/express.png'
 import tfjs from './img/tfjs.png'
 import nodered from './img/nedered.png'
 import rapi from './img/rapi.png'
+import userin from './img/FEE.png'
+import server from './img/server.png'
+import mljs from './img/mljs.png'
+import iotjs from './img/iotjs.png'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
 import { NavLink } from 'react-router-dom'
 import mlVideo from './img/VID_20220922203922.mp4'
+import {HashLink} from 'react-router-hash-link'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 AOS.init();
 
 function Jspage() {
+    const notify = () => toast.warn("ระบบนี้ยังใช้งานไม่ได้!");
     const [loading, setLoading] = useState(false);
 useEffect(()=>{
   setLoading(true);
@@ -37,12 +46,42 @@ useEffect(()=>{
       <div className="cropeiei"> 
         <div className="sec sec0">
             <div className="fj">
-                <img src={jslogo} alt="" />
-                <p>Javascript คือภาษาโปรแกรมชนิดหนึ่งซึ่งปรากฎตัวครั้งแรกเมื่อ วันที่ 4 ธันวาคม 2538</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor" class="bi bi-chevron-double-down scrolld" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                </svg>
+                <div className="mainjsp">
+                    <img src={jslogo} alt="" />
+                    <p>Javascript คือภาษาโปรแกรมชนิดหนึ่งซึ่งปรากฎตัวครั้งแรกเมื่อ วันที่ 4 ธันวาคม 2538</p>
+                </div>
+                <div className="front-end">
+                    <img src={userin} alt="" />
+                    <div className="flex-column">
+                        <p>User interface Javascript. </p>
+                        <p>ยูเซอร์อินเตอเฟส</p>
+                        <HashLink>Eiei</HashLink>
+                    </div>
+                </div>
+                <div className="back-end">
+                    <div className="flex-column">
+                        <p>Server Javascript. </p>
+                        <p>การจัดการเซิร์ฟเวอร์</p>
+                        <HashLink>Eiei</HashLink>
+                    </div>
+                    <img src={server} alt="" />
+                </div>
+                <div className="machine">
+                    <img src={mljs} alt="" />
+                    <div className="flex-column">
+                        <p>AI and Machine learning</p>
+                        <p>AI และ ปัญญาประดิษฐ์</p>
+                        <HashLink>Eiei</HashLink>
+                    </div>
+                </div>
+                <div className="iotrasp">
+                    <div className="flex-column">
+                        <p>im iot js</p>
+                        <p>เครื่องจักรกลอัจฉริยะ</p>
+                        <HashLink>Eiei</HashLink>
+                    </div>
+                    <img src={iotjs} alt="" />
+                </div>
             </div>
         </div>
         <div className="sec sec1" >
@@ -125,10 +164,11 @@ useEffect(()=>{
 </svg>
             <p>Certificate</p>
         <input type="text" placeholder='ชื่อขนามสกุลของคุณ' className='input'/>
-        <button>รับPDF Cert.</button>
+        <button onClick={notify}>รับPDF Cert.</button>
         </div>
         </div>
     }   
+    <ToastContainer />
     </div>
   )
 }

@@ -29,12 +29,12 @@
     position: relative;
 }
 .sec0{
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
 .sec1{
-    background:linear-gradient(15deg,rgb(223, 36, 36),blue,purple);
+    background:url(./img/BE.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -98,13 +98,47 @@
     justify-content: center;
 }
 .fj img{
-    width: 200px;
-    height: 200px;
+    width: 25vw;
+    margin: 0 10%;
 }
 .fj p{
-    color: aliceblue;
-    margin: 10vh 15vw;
+    color: black;
+    margin: 0 5%;
+    font-size: 12px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-column a{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    border: 1px solid black;
     text-align: center;
+    text-decoration: none;
+    margin-top: 4px;
+    box-shadow: 0 0 3px black;
+
+}
+.fj div{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+.fj .mainjsp{
+    height: 30vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    background-color: #000;
+}
+.fj .mainjsp p{
+    color: white;
+    width: 60vw;
+    font-size: 15px;
 }
 .sj{
     width: 100vw;

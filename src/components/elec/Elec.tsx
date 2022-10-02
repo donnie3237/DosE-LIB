@@ -3,6 +3,7 @@ import './elec.css'
 import nkl from './nikolaTasla.png'
 import HashLoader from 'react-spinners/HashLoader'
 import {HashLink} from 'react-router-hash-link'
+import elecvdo from './VID_20221002214944.mp4'
 
 function Elec() {
   const [loading, setLoading] = useState(false);
@@ -32,6 +33,8 @@ useEffect(()=>{
           <div className="contentelec">
               <div className="mmel">
                 <p>Welcome To Electric World!!</p>
+                <video src={elecvdo} autoPlay loop muted></video>
+                <img src={nkl} alt="" />
               </div>
               <div className="intro" id='intro'>
                 ไฟฟ้าคืออะไร

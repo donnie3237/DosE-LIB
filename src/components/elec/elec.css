@@ -87,9 +87,38 @@
 .mmel{
     height: 90vh;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    background-color: rgb(134, 134, 238);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.mmel img{
+    z-index: 2;
+    width: 30vh;
+    position: absolute;
+    bottom: 0;
+    left: 0vw;
+}
+.mmel video{
+    z-index: 1;
+    height: 130%;
+    opacity: 1;
+}
+.mmel p{
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    background-color:transparent;
+    border-top:4px solid black;
+    border-bottom:4px solid black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .intro{
     height: 90vh;
