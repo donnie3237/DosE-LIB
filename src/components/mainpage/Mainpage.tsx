@@ -5,7 +5,9 @@ import gith from './img/IMG_20220915_225203.jpg'
 import twtr from './img/Screenshot_2022-09-15-22-53-09-77_f9ee0578fe1cc94de7482bd41accb329.jpg'
 import 'aos/dist/aos.css'
 import Aos from 'aos';
+import data from './update.json'
 Aos.init();
+
 function Mainpage() {
     setInterval(myTime,1000);
     function myTime(){
@@ -40,11 +42,19 @@ function Mainpage() {
               <th>Version</th>
             </thead>
             <tbody>
-              <tr>
-                <td>ระบบ14%</td>
-                <td>2/10/65</td>
-                <td>1.0.0</td>
-              </tr>
+              {
+                data&&data.map((data)=>{
+                  return(
+                    <tr key={data.id}>
+                      <td>{data.name}</td>
+                      <td>{data.date}</td>
+                      <td>{data.version}</td>
+                    </tr>
+                  )
+                }
+                )
+              }
+              
             </tbody>
           </table>
           

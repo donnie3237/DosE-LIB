@@ -47,7 +47,7 @@
 .fsolar{
     height: 90vh;
     margin-bottom: 10vh;
-    background:url(./img/solar.jpg);
+    background-color: black;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -59,7 +59,7 @@
     display: flex;
     width: 100vw;
     background-color: rgb(11, 10, 10);
-    height: 45vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -69,21 +69,33 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-align: center;
-    height: calc(45vh/9);
+    height: calc(30vh/9);
     position: relative;
-    background-color: rgb(89, 95, 93);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 200;
 }
 .mydet img{
     z-index: 2;
-    height: 45vh;
+    height: 30vh;
     width: 100%;
     position: absolute;
 }
 .mydet:hover img{
     transform: translateX(100vw);
     transition: all 0.5s;
+}
+.introsolar{
+    height: 30vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.introsolar p{
+    margin: 0;
 }
