@@ -33,11 +33,10 @@ useEffect(()=>{
           
         </div>
       <div className="fsolar">
-        <div className="solar">
-          <details>
-            <summary>Solar</summary>
+        <div className="solarr">
             <div className="mydet">
-              <NavLink>แสงและโฟตอน</NavLink>
+              {/* <img src={solar} alt="" /> */}
+              <NavLink to='/'>แสงและโฟตอน</NavLink>
               <NavLink>ไดโอด พีเอ็น</NavLink>
               <NavLink>เซมิคอนดักเตอร์</NavLink>
               <NavLink>การถ่ายเทพลังงาน</NavLink>
@@ -46,11 +45,9 @@ useEffect(()=>{
               <NavLink>perovskite</NavLink>
               <NavLink>ประสิทธิภาพ</NavLink>
             </div>
-          </details>
-          <details>
-            <summary>Battery</summary>
             <div className="mydet">
-              <NavLink>ตัวเก็บประจุ</NavLink>
+              <img src={batterry} alt="" />
+              <NavLink to='/'>ตัวเก็บประจุ</NavLink>
               <NavLink>ความต่างศักย์ไฟฟ้า</NavLink>
               <NavLink>ลิเธียม</NavLink>
               <NavLink>โซเดียมในเกลือ</NavLink>
@@ -58,7 +55,6 @@ useEffect(()=>{
               <NavLink>DC fast charge</NavLink>
               <NavLink>Module</NavLink>
             </div>
-          </details>
         </div>
       </div>
       </div>

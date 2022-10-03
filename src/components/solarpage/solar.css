@@ -16,7 +16,7 @@
     z-index: -2;
 }
 .mainsolar video{
-    height: 90vh;
+    height: 100%;
 }
 .mainsolar p{
     position: absolute;
@@ -47,38 +47,44 @@
 .fsolar{
     height: 90vh;
     margin-bottom: 10vh;
-    background-color: rgb(206, 205, 205);
+    background:url(./img/solar.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-details a{
-    color: black;
-    margin-left: 10%;
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 1px solid black;
-    background-color: white;
-}
-details summary{
-    width: 80%;
-    margin-top: 2px;
-    height: 40px;
-    font-size: 25px;
-    padding: 0 10%;
-    border: 1px solid black;
-    background-color: white;
-}
 .mydet{
     display: flex;
-    flex-direction: column;
-
-}
-.solar{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    width: 100vw;
+    background-color: white;
+    height: 45vh;
     justify-content: center;
-    width: 80%;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    object-fit: cover;
+}
+.mydet a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    height: 30px;
+    position: relative;
+}
+.mydet img{
+    z-index: 2;
+    height: 45vh;
+    width: 100vw;
+    position: absolute;
+}
+.mydet img:hover{
+    transform: translateX(100vw);
+    transition: all 0.5s;
+}
+.mydet img:hover a{
+    
+    z-index: 3;
 }

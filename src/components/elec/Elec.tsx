@@ -24,12 +24,6 @@ useEffect(()=>{
       :
       <div className="cropeiei">
         <div className="cropcon">
-          <div className="elecnav">
-            <li><HashLink  to="/electric/#intro" > Introdution</HashLink></li>
-            <li><HashLink  to="/electric/#basic">Basic</HashLink></li>
-            <li><HashLink  to="/electric/#founder">Founder</HashLink></li>
-            <li><HashLink  to="/electric/#future">Future</HashLink></li>
-          </div>
           <div className="contentelec">
               <div className="mmel">
                 <p>Welcome To Electric World!!</p>

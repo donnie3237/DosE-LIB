@@ -55,14 +55,14 @@ useEffect(()=>{
                     <div className="flex-column">
                         <p>User interface Javascript. </p>
                         <p>ยูเซอร์อินเตอเฟส</p>
-                        <HashLink>Client</HashLink>
+                        <HashLink to='/javascript/#fe'>Client</HashLink>
                     </div>
                 </div>
                 <div className="back-end">
                     <div className="flex-column">
                         <p>Server Javascript. </p>
                         <p>การจัดการเซิร์ฟเวอร์</p>
-                        <HashLink>Server</HashLink>
+                        <HashLink to='/javascript/#be'>Server</HashLink>
                     </div>
                     <img src={server} alt="" />
                 </div>
@@ -71,20 +71,20 @@ useEffect(()=>{
                     <div className="flex-column">
                         <p>AI and Machine learning</p>
                         <p>AI และ ปัญญาประดิษฐ์</p>
-                        <HashLink>ML</HashLink>
+                        <HashLink to='/javascript/#ml'>ML</HashLink>
                     </div>
                 </div>
                 <div className="iotrasp">
                     <div className="flex-column">
                         <p>im iot js</p>
                         <p>เครื่องจักรกลอัจฉริยะ</p>
-                        <HashLink>IOT</HashLink>
+                        <HashLink to='/javascript/#iot'>IOT</HashLink>
                     </div>
                     <img src={iotjs} alt="" />
                 </div>
             </div>
         </div>
-        <div className="sec sec1" >
+        <div className="sec sec1" id='fe' >
             <h1>ClientSide Javascript</h1>
             <div className="react" id='second'>
                 <img src={reactpic}  />
@@ -110,7 +110,7 @@ useEffect(()=>{
                 </div>
             </div>
         </div>
-        <div className="sec sec2" >
+        <div className="sec sec2" id='be' >
             <h1>ServerSide Javascript</h1>
             <div className="nest mt10vh" id='backend' >
                 <img src={nestjs} />
@@ -123,14 +123,14 @@ useEffect(()=>{
                 <NavLink to='/javascript/express'>ExpressJS</NavLink>
             </div>
         </div>
-        <div className="sec sec3" >
+        <div className="sec sec3" id='ml' >
             <h1 id='mljs'>MachineLearning Javascript</h1>
             <img src={tfjs}/>
             <p>Machine Learning open Source By Google</p>
             <NavLink to='/javascript/tensorflowjs'>TFJS</NavLink>
             <video src={mlVideo} autoPlay muted loop/>
         </div>
-        <div className="sec sec4" >
+        <div className="sec sec4" id='iot'>
             <h1>IOT Javascript</h1>
             <div className="iotcrop">
                 <div className="ndre" id='iiotjs'>
