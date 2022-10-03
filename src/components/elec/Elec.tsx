@@ -5,6 +5,7 @@ import faraday from './Faraday-4.png'
 import frank from './frank.jpg'
 import volta from './Alessandro_Volta.jpeg'
 import elon from './Elon-Musk-PNG-Isolated-Photo.png'
+import elon2 from './elon.jpg'
 import HashLoader from 'react-spinners/HashLoader'
 import {NavLink} from 'react-router-dom'
 import elecvdo from './VID_20221002214944.mp4'
@@ -27,69 +28,55 @@ useEffect(()=>{
       </div>
       :
       <div className="cropeiei">
-        <div className="cropcon">
-          
           <div className="contentelec">
-              <div className="mmel">
+              <div className="mmel erir">
                 <p>Welcome To Electric World!!</p>
                 <video src={elecvdo} autoPlay loop muted></video>
                 <img src={nkl} alt="" />
               </div>
-              <div className="intro" id='intro'>
-              <h3>ไฟฟ้าคืออะไร</h3>
-                <img src={frank} alt="" />
-                
-                <NavLink>ไฟฟ้าเกิดขึ้นมาได้อย่างไร</NavLink>
-                <NavLink>ไฟฟ้ามีหน้าตายังไง</NavLink>
+              <div className="intro erir" id='intro'>
+                <h1>ไฟฟ้าคืออะไร</h1>
+                <img src={frank} alt="" />  
+                <NavLink>ไฟฟ้าเกิดขึ้นมาได้อย่างไร?</NavLink>
+                <NavLink>ไฟฟ้ามีหน้าตายังไง?</NavLink>
               </div>
-              <div className="basic" id='basic'>
+              <div className="basic erir" id='basic'>
+                <h1>พื้นฐานไฟฟ้า </h1>
                 <img src={volta} alt="" />
-                พื้นฐานไฟฟ้า
+                <div className="eir">
+                <NavLink>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
+                <NavLink>แหล่งจ่ายไฟฟ้า</NavLink>
+                <NavLink>ตัวต้านทานไฟฟ้า</NavLink>
+                <NavLink>การวิเคราะห์วงจรไฟฟ้า</NavLink>
+                </div>
               </div>
-              <div className="founder" id='founder'>
+              <div className="founder erir" id='founder'>
                   <h1>การค้นพบในอดีต</h1>
                   <img src={faraday} alt="" />
-                  <div className="fbat">
-                    แบตเตอรี่ก้อนแรก
-                  </div>
-                  <div className="fele">
-                    เครื่องกำเนิดไฟฟ้าชิ้นแรก
-                  </div>
-                  <div className="ftran">
-                    หม้อแปลงไฟฟ้าเครื่องแรก
-                  </div>
-                  <div className="fmotor">
-                    มอเตอร์ไฟฟ้าเครื่องแรก
-                  </div>
-                  <div className="fgen">
-                    การค้นพบความสัมพันธ์ระหว่างสนามแม่เหล็กกับสนามไฟฟ้า(สนามแม่เหล็กไฟฟ้า)
-                  </div>
-                  <div className="diote">
-                    ไดโอดเปล่งแสง
-                  </div>
+                  <NavLink>แบตเตอรี่ก้อนแรก</NavLink>
+                  <NavLink>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
+                  <NavLink>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>
+                  <NavLink>มอเตอร์ไฟฟ้าเครื่องแรก</NavLink>
+                  <NavLink>การค้นพบความสัมพันธ์ระหว่างสนามแม่เหล็กกับสนามไฟฟ้า(สนามแม่เหล็กไฟฟ้า)</NavLink>
+                  <NavLink>ไดโอดเปล่งแสง</NavLink>
               </div>
-              <div className="future" id='future'>
+              <div className="future erir" id='future'>
                 <h1>ไฟฟ้าในอนาคต</h1>
                 <img src={elon} alt="" />
-                <div className="warden">
-                    ระบบไฟฟ้าไร้สาย
-                </div>
-                <div className="proelec">
-                  การประยุกต์การเขียนโปรแกรมกับไฟฟ้า
-                </div>
-                <div className="peodu">
-                  การผลิตไฟฟ้ากับไดโอด
-                </div>
+                <NavLink>ระบบไฟฟ้าไร้สาย</NavLink>
+                <NavLink>การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
+                <NavLink>การผลิตไฟฟ้ากับไดโอด</NavLink>
+                <NavLink>ไฟฟ้ากับระบบประสาท</NavLink>
+                <NavLink>การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
               </div>
-              <div className="ab">
+              <div className="ab erir">
                   <h1>พวกเขาเกี่ยวข้องกับไฟฟ้าอย่างไร</h1>
                   <div className="nkl">
-                    <img src={nkl} alt="" />
                   </div>
                   <div className="smaller">
                     <div className="small1">
                       <img src={faraday} alt="" />
-                      <img src={elon} alt="" />
+                      <img src={elon2} alt="" />
                     </div>
                     <div className="small2">
                       <img src={volta} alt="" />
@@ -99,8 +86,6 @@ useEffect(()=>{
                 </div>
           </div>
         </div>
-        
-    </div>
     }
     </div>
   )
