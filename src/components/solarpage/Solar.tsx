@@ -35,7 +35,7 @@ useEffect(()=>{
       <div className="fsolar">
         <div className="solarr">
             <div className="mydet">
-              {/* <img src={solar} alt="" /> */}
+              <img src={solar} alt="" />
               <NavLink to='/'>แสงและโฟตอน</NavLink>
               <NavLink>ไดโอด พีเอ็น</NavLink>
               <NavLink>เซมิคอนดักเตอร์</NavLink>

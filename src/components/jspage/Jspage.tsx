@@ -86,7 +86,7 @@ useEffect(()=>{
         </div>
         <div className="sec sec1" id='fe' >
             <h1>ClientSide Javascript</h1>
-            <div className="react" id='second'>
+            <div className="react mt10vh" id='second'>
                 <img src={reactpic}  />
                 <div className="cropre">
                     <p>reactJS,React Native for IOS,Android,Web app</p>

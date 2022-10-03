@@ -149,20 +149,33 @@
 }
 .sec1 img{
     height: 60%;
-    margin-right: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: black;
+    box-shadow: 0 0 5px black;
 }
 .sec1 div{
-    background-color: rgb(78, 77, 77,0.5);
-    margin: 10px 0;
-    padding: 10px 7vw;
     display: flex;
-    height: 17vh;
+    padding: 0 5%;
+    margin-bottom: calc(10vh/3);
+    height: calc(60vh/3);
     align-items: center;
 }
 .cropre{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgb(123, 122, 122,0.8);
+    border-radius: 5%;
+    box-shadow: 0 0 10px white;
+}
+.cropre p{
+    font-size: 18px;
+    color: white;
 }
 .clbtn{
     background-color: black;
@@ -199,7 +212,7 @@
     box-shadow: 0 0 5px white;
     font-weight: 600;
     border-radius: 20px;
-    border: 1px solid rgb(5, 5, 209);
+    border: 2px solid rgb(255, 255, 255);
 }
 .sec3 img{
     width: 90vw;
