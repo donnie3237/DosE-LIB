@@ -30,9 +30,9 @@ useEffect(()=>{
         </div>
       :
       <div className="cropeiei">
-        <div className="mainsolar">
+        <div className="mainsolar" data-aos-duration='1000' data-aos='zoom-in-up'>
           <video src={vdotitle} autoPlay loop muted></video>
-          <p>Welcome To Energy world!! <a> Cr:Tesla(Youtube)</a></p>
+          <p  data-aos-duration='1500'>Welcome To Energy world!! <a> Cr:Tesla(Youtube)</a></p>
           
         </div>
         {/* <Bar
@@ -49,7 +49,7 @@ useEffect(()=>{
             <p>Energy for the future</p>
             <p>Dr.dose(ผู้ปกครองดาวนาเม็ก)</p>
           </div>
-            <div className="mydet">
+            <div className="mydet" data-aos-duration='1000' data-aos='fade-left'>
               <img src={solar} alt="" />
               <NavLink to='/solar/light'>แสงและโฟตอน</NavLink>
               <NavLink to='/solar/pn'>ไดโอด พีเอ็น</NavLink>
@@ -60,7 +60,7 @@ useEffect(()=>{
               <NavLink to='/solar/perov'>perovskite</NavLink>
               <NavLink to='/solar/eff'>ประสิทธิภาพ</NavLink>
             </div>
-            <div className="mydet">
+            <div className="mydet"data-aos-duration='1000' data-aos='fade-right'>
               <img src={batterry} alt="" />
               <NavLink to='/solar/capaciter'>ตัวเก็บประจุ</NavLink>
               <NavLink to='/solar/voltage'>ความต่างศักย์ไฟฟ้า</NavLink>

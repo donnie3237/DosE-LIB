@@ -47,11 +47,11 @@ useEffect(()=>{
         <div className="sec sec0">
             <div className="fj">
                 <div className="mainjsp">
-                    <img src={jslogo} alt="" />
+                    <img src={jslogo} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
                     <p>Javascript คือภาษาโปรแกรมชนิดหนึ่งซึ่งปรากฎตัวครั้งแรกเมื่อ วันที่ 4 ธันวาคม 2538</p>
                 </div>
                 <div className="front-end">
-                    <img src={userin} alt="" />
+                    <img src={userin} alt="" data-aos='zoom-in' data-aos-duration='1000' />
                     <div className="flex-column">
                         <p>User interface Javascript. </p>
                         <p>ยูเซอร์อินเตอเฟส</p>
@@ -64,10 +64,10 @@ useEffect(()=>{
                         <p>การจัดการเซิร์ฟเวอร์</p>
                         <HashLink to='/javascript/#be'>Server</HashLink>
                     </div>
-                    <img src={server} alt="" />
+                    <img src={server} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
                 </div>
                 <div className="machine">
-                    <img src={mljs} alt="" />
+                    <img src={mljs} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
                     <div className="flex-column">
                         <p>AI and Machine learning</p>
                         <p>AI และ ปัญญาประดิษฐ์</p>
@@ -76,18 +76,18 @@ useEffect(()=>{
                 </div>
                 <div className="iotrasp">
                     <div className="flex-column">
-                        <p>im iot js</p>
+                        <p>Internet Of Things</p>
                         <p>เครื่องจักรกลอัจฉริยะ</p>
                         <HashLink to='/javascript/#iot'>IOT</HashLink>
                     </div>
-                    <img src={iotjs} alt="" />
+                    <img src={iotjs} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
                 </div>
             </div>
         </div>
         <div className="sec sec1" id='fe' >
             <h1>ClientSide Javascript</h1>
-            <div className="react mt10vh" id='second'>
-                <img src={reactpic}  />
+            <div className="react mt10vh" id='second' >
+                <img src={reactpic} />
                 <div className="cropre">
                     <p>reactJS,React Native for IOS,Android,Web app</p>
                     <NavLink to='/javascript/react' className='clbtn'>ReactJS</NavLink>

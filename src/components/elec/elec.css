@@ -1,236 +1,173 @@
-.cropp{
-    position: absolute;
-    top: 15vh;
-    padding:0 20vw;
-}
-.cropp p{
-    font-size: 19px;
-    font-weight: 500;
-
-}
-.contentelec{
-    background-color: rgb(255, 255, 255);
-    height: 90vh;
-    width: 100vw;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    height: 90vh;
-    overflow-x: hidden;
-}
-.erir{
-    scroll-snap-align: start;
-}
-.founder h1{
-    color: rgb(255, 255, 255);
-    background-color: rgb(67, 21, 109);
-    width: 100vw;
-    padding: 10px 0;
-    text-align: center;
-    box-shadow: 0 0 10px white;
-}
-.founder{
-    height: 90vh;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    padding: 0 5vw;
-}
-.founder div{
-    color: rgb(255, 255, 255);
-}
-.future{
-    height: 90vh;
-    background:url(./future.jfif);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    padding: 0 5vw;
-}
-
-.cropcon{
-    display: flex;
-    margin-bottom: 10vh;
-}
 .mmel{
     height: 90vh;
-    display: flex;
+    width: 100vw;
+    background:white;
+    background-size: cover;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .mmel img{
-    z-index: 2;
-    width: 30vh;
+    width: 60vw;
     position: absolute;
-    bottom: 0;
-    left: 0vw;
-}
-.mmel video{
-    z-index: 1;
-    height: 130%;
-    opacity: 1;
+    bottom: -30px;
+    left: -30px;
 }
 .mmel p{
-    z-index: 2;
+    font-size: 25px;
+    font-weight: 600;
+    background-color:transparent;
+    padding: 40px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid #000;
     position: absolute;
     top: 40%;
-    font-size: 20px;
-    font-weight: 700;
-    width: 100%;
-    background-color:transparent;
-    border-top:4px solid black;
-    border-bottom:4px solid black;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+}
+.erir{
+    overflow: hidden;
 }
 .intro{
-    height: 90vh;
-    background:url(./f1.jpg);
-    background-size: cover;
+    height: 300px;
+    background-color: #000;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.basic{
-    height: 90vh;
-    background:url(./f2.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .intro img{
-    height: 30vh;
-    margin: 10px;
-    box-shadow: 0 0 10px white;
+    width: 35vw;
+    margin:0 5%;
 }
-.founder img{
-    height: 30vh;
-    width: 50vw;
-    margin: 20px 0;
-}
-.basic img{
-    height: 30vh;
-    margin: 20px;
-    border: 3px solid white;
-}
-.future img{
-    height: 30vh;
-    width: 70vw;
-    background-color: rgb(133, 133, 243,0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px black;
-    margin: 20px 0;
-}
-.contentelec div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ab{
-    height: 90vh;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-}
-.ab h1{
-    width: 100vw;
-    height: 10vh;
-    margin: 0;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.smaller{
-    display: flex;
-    height: 50vh;
-    background-color: rgb(151, 151, 151);
-    width: 100vw;
-    flex-direction: column;
-}
-
-.smaller img{
-    width: 50vw;
-    height: 25vh;
-}
-.nkl{
-    background:url(./nikola.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 30vh;
-}
-.intro{
-    flex-direction: column;
+.contentelec h1{
+    color: azure;
+    top: 0;
+    font-size: 24px;
 }
 .intro a{
     text-decoration: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    width: 70vw;
-    border-radius: 10px;
-    background-color: rgba(144, 68, 68, 0.8);
-    padding: 15px 0;
-    box-shadow: 0 0 5px rgb(255, 255, 255);
-    text-align: center;
-}
-.intro h1{
     color: white;
-    width: 100vw;
-    background-color: rgb(0, 0, 0,.9);
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 0 5px white;
+    border-bottom: 1px solid rgb(105, 104, 104);
+}
+.ei{
+    display: flex;
+    margin: auto 0;
+}
+.eie{
+    display: flex;
+    flex-direction: column;
+}
+.basic{
+    height: 350px;
+    display: flex;
+    background-color: rgb(104, 100, 100);
+}
+.basic img{
+    width: 40vw;
+    height: 200px;
+    margin:auto 5%;
 }
 .basic a{
-    width: 70vw;
     text-decoration: none;
-    border-bottom:1px solid rgb(146, 143, 143) ;
-    padding: 10px 0;
-    margin: 2px;
-    color: rgb(214, 212, 212);
-    text-align: center;
-}
-.basic h1{
-    width: 100vw;
-    text-align: center;
-    padding: 20px 0;
-    background-color: white;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    color: rgb(255, 255, 255);
 }
 .eir{
+    display: flex;
     flex-direction: column;
-    width: 90vw;
-    background-color: rgb(0, 0, 0,0.9);
-    height: 30vh;
-    border-radius: 10px;
+    margin: auto 5%;
+}
+.founder{
+    height: 600px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.founder img{
+    height: 200px;
 }
 .founder a{
     text-decoration: none;
     color: white;
-    width: 70vw;
-    padding: 5px 0;
-    border-bottom: 1px solid white;
+    text-align: center;
+    border-bottom: 1px solid rgb(65, 63, 63);
+    width: 80vw;
+    padding: 10px 0;
+}
+.founder h1{
+    font-size: 30px;
+}
+.future{
+    height: 100%;
+    background-color: rgb(77, 77, 77);
+    flex-direction: column;
+    display: flex;
+}
+.future img{
+    height: 200px;
+    width: 240px;
+    margin: 30px auto;
 }
 .future h1{
-    width: 100vw;
-    background-color: rgb(245, 245, 245,0.8);
-    padding: 20px 0;
+    font-size: 28px;
     text-align: center;
+    margin: 25px 0;
 }
 .future a{
     text-decoration: none;
     color: white;
-    background-color: rgb(12, 113, 20,0.8);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    text-align: center;
-    width: 80vw;
-    padding: 12px 0;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.future a div{
+    height: 100px;
+    background-color: aliceblue;
+    width: 100px;
+    margin: 5px 10px;
+}
+.a{
+    background: url(./warden.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b{
+    background: url(./iot.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c{
+    background: url(./neural.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.d{
+    background: url(./f1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ab{
+    height: 100%;
+    background-color: #000;
+    margin-bottom: 10vh;
+}
+.ab h1{
+    margin: 10px;
+}
+.nkl{
+    width: 100vw;
+    height: 200px;
+    background: url(./nikola.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.smaller{
+    display: flex;
+    overflow-x: scroll;
+}
+.smaller img{
+    width: 25vw;
+    height: 100px;
 }

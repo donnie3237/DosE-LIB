@@ -31,24 +31,28 @@ useEffect(()=>{
           <div className="contentelec">
               <div className="mmel erir">
                 <p>Welcome To Electric World!!</p>
-                <video src={elecvdo} autoPlay loop muted></video>
                 <img src={nkl} alt="" />
               </div>
               <div className="intro erir" id='intro'>
-                <h1>ไฟฟ้าคืออะไร</h1>
+                
+                <div className="ei">
                 <img src={frank} alt="" />  
+                <div className="eie">
+                <h1>ไฟฟ้าคืออะไร</h1>
                 <NavLink>ไฟฟ้าเกิดขึ้นมาได้อย่างไร?</NavLink>
                 <NavLink>ไฟฟ้ามีหน้าตายังไง?</NavLink>
+                </div>
+                </div>
               </div>
               <div className="basic erir" id='basic'>
-                <h1>พื้นฐานไฟฟ้า </h1>
-                <img src={volta} alt="" />
                 <div className="eir">
+                <h1>พื้นฐานไฟฟ้า </h1>
                 <NavLink>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
                 <NavLink>แหล่งจ่ายไฟฟ้า</NavLink>
                 <NavLink>ตัวต้านทานไฟฟ้า</NavLink>
                 <NavLink>การวิเคราะห์วงจรไฟฟ้า</NavLink>
                 </div>
+                <img src={volta} alt="" />
               </div>
               <div className="founder erir" id='founder'>
                   <h1>การค้นพบในอดีต</h1>
@@ -63,11 +67,10 @@ useEffect(()=>{
               <div className="future erir" id='future'>
                 <h1>ไฟฟ้าในอนาคต</h1>
                 <img src={elon} alt="" />
-                <NavLink>ระบบไฟฟ้าไร้สาย</NavLink>
-                <NavLink>การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
-                <NavLink>การผลิตไฟฟ้ากับไดโอด</NavLink>
-                <NavLink>ไฟฟ้ากับระบบประสาท</NavLink>
-                <NavLink>การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
+                <NavLink><div className="a"></div> ระบบไฟฟ้าไร้สาย(wireless energy)</NavLink>
+                <NavLink><div className="b"></div> การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
+                <NavLink><div className="c"></div> ไฟฟ้ากับระบบประสาท(Neuralink)</NavLink>
+                <NavLink><div className="d"></div> การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
               </div>
               <div className="ab erir">
                   <h1>พวกเขาเกี่ยวข้องกับไฟฟ้าอย่างไร</h1>
