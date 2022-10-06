@@ -239,40 +239,45 @@
 .sec4 img{
     width: 100px;
     height: 100px;
-    margin: 30px auto;
+    margin-left: 5%;
 }
 .sec4 p{
-    margin: 0 15px;
-    font-size: 12px;
+    margin: 0 18px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 .bi-robot{
-    position: absolute;
-    bottom: 0;
     width: 100vw;
     height: 20vh;
     padding: 5vh 0;
-    background-color: rgb(240, 240, 240,0.7);
+    background-color: rgb(240, 240, 240,0.5);
 }
 .sec4 a{
-    position: absolute;
-    bottom: -5vh;
-    padding: 7px 10px;
+    padding: 3px 10px;
     background-color: transparent;
     color: #000;
     font-weight: 600;
     text-decoration: none;
     border-radius: 5px;
     border: 2px solid #000;
+    margin-top: 10px;
+    
 }
 .sec4 div div{
-    width: 50%;
-    height: 50vh;
+    width: 100vw;
+    height: 25vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.cio{
+    display: flex;
     flex-direction: column;
+    position: relative;
 }
 .ndre{
     background-color: rgb(136, 0, 255,0.7);
+    height: 30vh;
 }
 .raspi{
     background-color: rgb(247, 166, 18,0.7);
@@ -280,7 +285,8 @@
 .iotcrop{
     display: flex;
     width: 100vw;
-    height: 40vh;
+    flex-direction: column;
+    height: 80vh;
     position: absolute;
     top: 10vh;
     margin: 0%;
