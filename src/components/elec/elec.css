@@ -2,15 +2,7 @@
     height: 90vh;
     width: 100vw;
     background:white;
-    background-size: cover;
-    position: relative;
     overflow: hidden;
-}
-.mmel img{
-    width: 60vw;
-    position: absolute;
-    bottom: -30px;
-    left: -30px;
 }
 .mmel p{
     font-size: 25px;
@@ -100,24 +92,29 @@
 }
 .future{
     height: 100%;
-    background-color: rgb(77, 77, 77);
+    background:url(./f2.jpg);
     flex-direction: column;
     display: flex;
 }
 .future img{
     height: 200px;
     width: 240px;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 .future h1{
     font-size: 28px;
     text-align: center;
-    margin: 25px 0;
+    margin: 0;
+    padding: 20px 0;
+    width: 100vw;
+    color: black;
+    background-color: rgb(255, 255, 255);
 }
 .future a{
     text-decoration: none;
     color: white;
-    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    background-color: rgb(129, 124, 124);
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -150,11 +147,12 @@
 }
 .ab{
     height: 100%;
-    background-color: #000;
+    background-color: rgb(7, 7, 7);
     margin-bottom: 10vh;
 }
 .ab h1{
-    margin: 10px;
+    text-align: center;
+    padding: 10px 0;
 }
 .nkl{
     width: 100vw;
@@ -165,7 +163,6 @@
 }
 .smaller{
     display: flex;
-    overflow-x: scroll;
 }
 .smaller img{
     width: 25vw;

@@ -8,7 +8,9 @@ import elon from './Elon-Musk-PNG-Isolated-Photo.png'
 import elon2 from './elon.jpg'
 import HashLoader from 'react-spinners/HashLoader'
 import {NavLink} from 'react-router-dom'
-import elecvdo from './VID_20221002214944.mp4'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+AOS.init();
 
 function Elec() {
   const [loading, setLoading] = useState(false);
@@ -33,10 +35,10 @@ useEffect(()=>{
                 <p>Welcome To Electric World!!</p>
                 <img src={nkl} alt="" />
               </div>
-              <div className="intro erir" id='intro'>
+              <div className="intro erir" id='intro' data-aos='zoom-left-up' data-aos-duration='1500'>
                 
-                <div className="ei">
-                <img src={frank} alt="" />  
+                <div className="ei" >
+                <img src={frank} alt="" data-aos='zoom-in' data-aos-duration='1000'/>  
                 <div className="eie">
                 <h1>ไฟฟ้าคืออะไร</h1>
                 <NavLink>ไฟฟ้าเกิดขึ้นมาได้อย่างไร?</NavLink>
@@ -44,7 +46,7 @@ useEffect(()=>{
                 </div>
                 </div>
               </div>
-              <div className="basic erir" id='basic'>
+              <div className="basic erir" id='basic' data-aos='zoom-right-down' data-aos-duration='1500'>
                 <div className="eir">
                 <h1>พื้นฐานไฟฟ้า </h1>
                 <NavLink>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
@@ -52,11 +54,11 @@ useEffect(()=>{
                 <NavLink>ตัวต้านทานไฟฟ้า</NavLink>
                 <NavLink>การวิเคราะห์วงจรไฟฟ้า</NavLink>
                 </div>
-                <img src={volta} alt="" />
+                <img src={volta} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
               </div>
-              <div className="founder erir" id='founder'>
+              <div className="founder erir" id='founder' data-aos='zoom-left-up' data-aos-duration='1500'>
                   <h1>การค้นพบในอดีต</h1>
-                  <img src={faraday} alt="" />
+                  <img src={faraday} alt="" data-aos='flip-left' data-aos-duration='1500'/>
                   <NavLink>แบตเตอรี่ก้อนแรก</NavLink>
                   <NavLink>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
                   <NavLink>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>
