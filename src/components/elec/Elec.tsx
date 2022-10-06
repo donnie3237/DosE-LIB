@@ -39,7 +39,7 @@ useEffect(()=>{
                 
                 <div className="ei" >
                 <img src={frank} alt="" data-aos='zoom-in' data-aos-duration='1000'/>  
-                <div className="eie">
+                <div className="eie" data-aos='fade-up' data-aos-duration='1500'>
                 <h1>ไฟฟ้าคืออะไร</h1>
                 <NavLink>ไฟฟ้าเกิดขึ้นมาได้อย่างไร?</NavLink>
                 <NavLink>ไฟฟ้ามีหน้าตายังไง?</NavLink>
@@ -47,7 +47,7 @@ useEffect(()=>{
                 </div>
               </div>
               <div className="basic erir" id='basic' data-aos='zoom-right-down' data-aos-duration='1500'>
-                <div className="eir">
+                <div className="eir" data-aos='fade-up' data-aos-duration='1500'>
                 <h1>พื้นฐานไฟฟ้า </h1>
                 <NavLink>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
                 <NavLink>แหล่งจ่ายไฟฟ้า</NavLink>
@@ -59,20 +59,20 @@ useEffect(()=>{
               <div className="founder erir" id='founder' data-aos='zoom-left-up' data-aos-duration='1500'>
                   <h1>การค้นพบในอดีต</h1>
                   <img src={faraday} alt="" data-aos='flip-left' data-aos-duration='1500'/>
-                  <NavLink>แบตเตอรี่ก้อนแรก</NavLink>
-                  <NavLink>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
-                  <NavLink>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>
-                  <NavLink>มอเตอร์ไฟฟ้าเครื่องแรก</NavLink>
-                  <NavLink>การค้นพบความสัมพันธ์ระหว่างสนามแม่เหล็กกับสนามไฟฟ้า(สนามแม่เหล็กไฟฟ้า)</NavLink>
-                  <NavLink>ไดโอดเปล่งแสง</NavLink>
+                  <NavLink data-aos='fade-left' data-aos-duration='1500'>แบตเตอรี่ก้อนแรก</NavLink>
+                  <NavLink data-aos='fade-left' data-aos-duration='1500'>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
+                  <NavLink data-aos='fade-left' data-aos-duration='1500'>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>
+                  <NavLink data-aos='fade-left' data-aos-duration='1500'>มอเตอร์ไฟฟ้าเครื่องแรก</NavLink>
+                  <NavLink data-aos='fade-left' data-aos-duration='1500'>การค้นพบความสัมพันธ์ระหว่างสนามแม่เหล็กกับสนามไฟฟ้า(สนามแม่เหล็กไฟฟ้า)</NavLink>
+                  <NavLink data-aos='fade-left' data-aos-duration='1500'> ไดโอดเปล่งแสง</NavLink>
               </div>
-              <div className="future erir" id='future'>
+              <div className="future erir" id='future' data-aos='zoom-in' data-aos-duration='3500'>
                 <h1>ไฟฟ้าในอนาคต</h1>
-                <img src={elon} alt="" />
-                <NavLink><div className="a"></div> ระบบไฟฟ้าไร้สาย(wireless energy)</NavLink>
-                <NavLink><div className="b"></div> การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
-                <NavLink><div className="c"></div> ไฟฟ้ากับระบบประสาท(Neuralink)</NavLink>
-                <NavLink><div className="d"></div> การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
+                <img src={elon} alt="" data-aos='zoom-in-up' data-aos-duration='1500'/>
+                <NavLink><div className="a" data-aos='zoom-in' data-aos-duration='1500'></div> ระบบไฟฟ้าไร้สาย(wireless energy)</NavLink>
+                <NavLink><div className="b" data-aos='zoom-in' data-aos-duration='1500'></div> การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
+                <NavLink><div className="c" data-aos='zoom-in' data-aos-duration='1500'></div> ไฟฟ้ากับระบบประสาท(Neuralink)</NavLink>
+                <NavLink><div className="d" data-aos='zoom-in' data-aos-duration='1500'></div> การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
               </div>
               <div className="ab erir">
                   <h1>พวกเขาเกี่ยวข้องกับไฟฟ้าอย่างไร</h1>
@@ -87,6 +87,28 @@ useEffect(()=>{
                       <img src={volta} alt="" />
                       <img src={frank} alt="" />
                     </div>
+                  </div>
+                  <div className="details">
+                  <details>
+                    <summary>Nikol Tesla</summary>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, laudantium.</p>
+                  </details>
+                  <details>
+                    <summary>Alexandro Volta</summary>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, laudantium.</p>
+                  </details>
+                  <details>
+                    <summary>Benjamin Franklin</summary>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, laudantium.</p>
+                  </details>
+                  <details>
+                    <summary>Elon Musk</summary>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, laudantium.</p>
+                  </details>
+                  <details>
+                    <summary>Mikle Faraday</summary>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, laudantium.</p>
+                  </details>
                   </div>
                 </div>
           </div>

@@ -51,6 +51,7 @@ useEffect(()=>{
           </div>
             <div className="mydet" data-aos-duration='1000' data-aos='fade-left'>
               <img src={solar} alt="" />
+              <div className="banner">
               <NavLink to='/solar/light'>แสงและโฟตอน</NavLink>
               <NavLink to='/solar/pn'>ไดโอด พีเอ็น</NavLink>
               <NavLink to='/solar/semi'>เซมิคอนดักเตอร์</NavLink>
@@ -60,8 +61,10 @@ useEffect(()=>{
               <NavLink to='/solar/perov'>perovskite</NavLink>
               <NavLink to='/solar/eff'>ประสิทธิภาพ</NavLink>
             </div>
+            </div>
             <div className="mydet"data-aos-duration='1000' data-aos='fade-right'>
               <img src={batterry} alt="" />
+              <div className="banner">
               <NavLink to='/solar/capaciter'>ตัวเก็บประจุ</NavLink>
               <NavLink to='/solar/voltage'>ความต่างศักย์ไฟฟ้า</NavLink>
               <NavLink to='/solar/li'>ลิเธียม</NavLink>
@@ -69,6 +72,7 @@ useEffect(()=>{
               <NavLink to='/solar/ss'>Solid state</NavLink>
               <NavLink to='/solar/fast'>DC fast charge</NavLink>
               <NavLink to='/solar/module'>Module</NavLink>
+              </div>
             </div>
         </div>
       </div>
