@@ -32,8 +32,10 @@ function Mainpage() {
       <div className="parallax">
         <div className='first' id='firstt'>
           <h2>วัตถุประสงค์</h2>
-          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cum vel minima eius illum perspiciatis modi odit possimus, sed repellendus corporis tenetur non corrupti vero. Quod sunt delectus nam reprehenderit.</h5>
           <button id='fbtn' onClick={Close}>EXPLORE!!</button>
+          <h5>แอพพลิเคชั่นนี้ถูกสร้างขึ้นมาเพื่อ เก็บรวบรวมความรู้ด้าน การเขียนโปรแกรม พลังงานอย่าง โซล่าร์เซลล์เเละแบตเตอรี่ นอกจากนี้ยังมีความรู้ด้านไฟฟ้า และการต่อวงจรไฟฟ้า แถมการประยุกต์สามสิ่งนี้เข้าด้วยกันอย่างลงตัว
+            และยังมีการอัพเดทข้อมูลแบบเรียลไทม์อีกด้วย
+          </h5>
           <h2>ตารางการอัพเดท</h2>
           <table>
             <thead>
@@ -87,17 +89,17 @@ function Mainpage() {
         </div>
         <div className="parallax1">
         </div>
-        <div className="ebook">
+        <div className="ebook" data-aos='fade-in-up' data-aos-duration='700'>
           <h2>ฉันมีหนังสือ ไฟล์PDF มาแนะนำคุณ คุณอาจจะชอบมัน</h2>
-          <div className="cropbook">
+          <div className="cropbook" >
             <div className="ccbook">
               <div className="bline1">
-                <div  className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
-                <div   className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
+                <div data-aos='zoom-in' className="book book1"><a href="https://drive.google.com/drive/folders/18Eww7WpOVfimI2O5xfYH-P2jZ8grzPvc?usp=sharing" target='blank'>Electric</a></div>
+                <div data-aos='zoom-in'  className="book book2"><a href="https://drive.google.com/drive/folders/18D6O5QeFpNfBoY6EXcbN4zb6tDq057fq?usp=sharing" target='blank'>Energy</a></div>
               </div>
               <div className="bline2">
-                <div   className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
-                <div   className="book book4"><a href="">more</a></div>
+                <div data-aos='zoom-in'  className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
+                <div  data-aos='zoom-in' className="book book4"><a href="">more</a></div>
               </div>
             </div>
           </div>

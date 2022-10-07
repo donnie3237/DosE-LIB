@@ -41,15 +41,15 @@ useEffect(()=>{
                 <img src={frank} alt="" data-aos='zoom-in' data-aos-duration='1000'/>  
                 <div className="eie" data-aos='fade-up' data-aos-duration='1500'>
                 <h1>ไฟฟ้าคืออะไร</h1>
-                <NavLink>ไฟฟ้าเกิดขึ้นมาได้อย่างไร?</NavLink>
-                <NavLink>ไฟฟ้ามีหน้าตายังไง?</NavLink>
+                <NavLink to='/electric/howfrom'>ไฟฟ้าเกิดขึ้นมาได้อย่างไร?</NavLink>
+                <NavLink to='/electric/howlike'>ไฟฟ้ามีหน้าตายังไง?</NavLink>
                 </div>
                 </div>
               </div>
               <div className="basic erir" id='basic' data-aos='zoom-right-down' data-aos-duration='1500'>
                 <div className="eir" data-aos='fade-up' data-aos-duration='1500'>
                 <h1>พื้นฐานไฟฟ้า </h1>
-                <NavLink>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
+                <NavLink to='/electric/basic1'>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
                 <NavLink>แหล่งจ่ายไฟฟ้า</NavLink>
                 <NavLink>ตัวต้านทานไฟฟ้า</NavLink>
                 <NavLink>การวิเคราะห์วงจรไฟฟ้า</NavLink>

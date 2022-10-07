@@ -149,7 +149,7 @@ useEffect(()=>{
                     <div className="cio">
                     <p>Good board for use Machine Learning and IOT work on localhost
                     , it is micor controller RAM{'>'}1GB ROM{'>'}1GB </p>
-                    <NavLink to='/javascript/raspberripi'>RaspberryPi</NavLink>
+                    <NavLink to='/javascript/raspberrypi'>RaspberryPi</NavLink>
                     </div>
                 </div>
             </div>
