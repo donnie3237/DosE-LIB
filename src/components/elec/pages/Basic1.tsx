@@ -1,14 +1,19 @@
 import React from 'react'
+import { useState,useEffect } from 'react';
 import './css/elecstyle.css'
 function Basic1() {
     const p =document.getElementById("p")
+    const [paragraph,setParagraph]= useState("")
+    
     function Search(){
         let input =document.getElementById("input").value;
-        if(input !== ""){
+        if (input !== ""){
+            setParagraph(input)
+        }
+        if(paragraph !== ""){
             let regExp =new RegExp(input, "gi")
             p.innerHTML = (p.textContent).replace(regExp,"<mark>$&</mark>")
         }
-
     }
   return (
     <div className='main'>
