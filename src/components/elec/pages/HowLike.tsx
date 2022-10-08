@@ -2,7 +2,7 @@ import React from 'react'
 
 function HowLike() {
   return (
-    <div>HowLike</div>
+    <div><h1> ไฟฟ้ามีหน้าตาอย่างไร</h1></div>
   )
 }
 

@@ -50,29 +50,29 @@ useEffect(()=>{
                 <div className="eir" data-aos='fade-up' data-aos-duration='1500'>
                 <h1>พื้นฐานไฟฟ้า </h1>
                 <NavLink to='/electric/basic1'>ประจุ กระแส แรงดัน กำลังไฟฟ้า</NavLink>
-                <NavLink>แหล่งจ่ายไฟฟ้า</NavLink>
-                <NavLink>ตัวต้านทานไฟฟ้า</NavLink>
-                <NavLink>การวิเคราะห์วงจรไฟฟ้า</NavLink>
+                <NavLink to='/electric/basic2'>แหล่งจ่ายไฟฟ้า</NavLink>
+                <NavLink to='/electric/basic3'>ตัวต้านทานไฟฟ้า</NavLink>
+                <NavLink to='/electric/basic4'>การวิเคราะห์วงจรไฟฟ้า</NavLink>
                 </div>
                 <img src={volta} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
               </div>
               <div className="founder erir" id='founder' data-aos='zoom-left-up' data-aos-duration='1500'>
                   <h1>การค้นพบในอดีต</h1>
                   <img src={faraday} alt="" data-aos='flip-left' data-aos-duration='1500'/>
-                  <NavLink data-aos='fade-left' data-aos-duration='1000'>แบตเตอรี่ก้อนแรก</NavLink>
-                  <NavLink data-aos='fade-left' data-aos-duration='1000'>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
-                  <NavLink data-aos='fade-left' data-aos-duration='1000'>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>
-                  <NavLink data-aos='fade-left' data-aos-duration='1000'>มอเตอร์ไฟฟ้าเครื่องแรก</NavLink>
-                  <NavLink data-aos='fade-left' data-aos-duration='1000'>การค้นพบความสัมพันธ์ระหว่างสนามแม่เหล็กกับสนามไฟฟ้า(สนามแม่เหล็กไฟฟ้า)</NavLink>
-                  <NavLink data-aos='fade-left' data-aos-duration='1000'> ไดโอดเปล่งแสง</NavLink>
+                  <NavLink to='/electric/founder1' data-aos='fade-left' data-aos-duration='1000'>แบตเตอรี่ก้อนแรก</NavLink>
+                  <NavLink to='/electric/founder2' data-aos='fade-left' data-aos-duration='1000'>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
+                  <NavLink to='/electric/founder3' data-aos='fade-left' data-aos-duration='1000'>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>
+                  <NavLink to='/electric/founder4' data-aos='fade-left' data-aos-duration='1000'>มอเตอร์ไฟฟ้าเครื่องแรก</NavLink>
+                  <NavLink to='/electric/founder5' data-aos='fade-left' data-aos-duration='1000'>การค้นพบความสัมพันธ์ระหว่างสนามแม่เหล็กกับสนามไฟฟ้า(สนามแม่เหล็กไฟฟ้า)</NavLink>
+                  <NavLink to='/electric/founder6' data-aos='fade-left' data-aos-duration='1000'> ไดโอดเปล่งแสง</NavLink>
               </div>
               <div className="future erir" id='future' data-aos='zoom-in' data-aos-duration='3500'>
                 <h1>ไฟฟ้าในอนาคต</h1>
                 <img src={elon} alt="" data-aos='zoom-in-up' data-aos-duration='1500'/>
-                <NavLink><div className="a" data-aos='zoom-in' data-aos-duration='1200'></div> ระบบไฟฟ้าไร้สาย(wireless energy)</NavLink>
-                <NavLink><div className="b" data-aos='zoom-in' data-aos-duration='1200'></div> การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
-                <NavLink><div className="c" data-aos='zoom-in' data-aos-duration='1200'></div> ไฟฟ้ากับระบบประสาท(Neuralink)</NavLink>
-                <NavLink><div className="d" data-aos='zoom-in' data-aos-duration='1200'></div> การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
+                <NavLink to='/electric/future1'><div className="a" data-aos='zoom-in' data-aos-duration='1200'></div> ระบบไฟฟ้าไร้สาย(wireless energy)</NavLink>
+                <NavLink to='/electric/future2'><div className="b" data-aos='zoom-in' data-aos-duration='1200'></div> การประยุกต์การเขียนโปรแกรมกับไฟฟ้า</NavLink>
+                <NavLink to='/electric/future3'><div className="c" data-aos='zoom-in' data-aos-duration='1200'></div> ไฟฟ้ากับระบบประสาท(Neuralink)</NavLink>
+                <NavLink to='/electric/future4'><div className="d" data-aos='zoom-in' data-aos-duration='1200'></div> การขับเคลื่อนโลกครั้งยิ่งใหญ่ด้วยไฟฟ้า</NavLink>
               </div>
               <div className="ab erir">
                   <h1>พวกเขาเกี่ยวข้องกับไฟฟ้าอย่างไร</h1>

@@ -1,0 +1,26 @@
+.jsmain{
+    background-color: black;
+    min-height: 90vh;
+}
+.jsheader{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 25px;
+    height: 40px;
+    background-color: rgb(146, 140, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+}
+.jscontents p{
+    color: white;
+    margin: 30px 7%;
+    text-align: justify;
+}
+.jscontents h2{
+    color: white;
+    margin: 30px 7%;
+}
