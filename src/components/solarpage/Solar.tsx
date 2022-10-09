@@ -52,7 +52,7 @@ useEffect(()=>{
             <div className="mydet" data-aos-duration='1000' data-aos='fade-left'>
               <img src={solar} alt="" />
               <div className="banner">
-              <NavLink to='/solar/light'>แสงและโฟตอน</NavLink>
+              <NavLink to='/solar/phothon'>แสงและโฟตอน</NavLink>
               <NavLink to='/solar/pn'>ไดโอด พีเอ็น</NavLink>
               <NavLink to='/solar/semi'>เซมิคอนดักเตอร์</NavLink>
               <NavLink to='/solar/ener'>การถ่ายเทพลังงาน</NavLink>

@@ -31,6 +31,20 @@ import Future2 from './components/elec/pages/Future2.tsx';
 import Future3 from './components/elec/pages/Future3.tsx';
 import Future4 from './components/elec/pages/Future4.tsx';
 import Solar1 from './components/solarpage/pages/Solar1.tsx';
+import Solar3 from './components/solarpage/pages/Solar3.tsx';
+import Solar2 from './components/solarpage/pages/Solar2.tsx';
+import Solar4 from './components/solarpage/pages/Solar4.tsx';
+import Solar5 from './components/solarpage/pages/Solar5.tsx';
+import Solar7 from './components/solarpage/pages/Solar7.tsx';
+import Solar8 from './components/solarpage/pages/Solar8.tsx';
+import Solar6 from './components/solarpage/pages/Solar6.tsx';
+import Battery1 from './components/solarpage/pages/Battery1.tsx';
+import Battery2 from './components/solarpage/pages/Battery2.tsx';
+import Battery3 from './components/solarpage/pages/Battery3.tsx';
+import Battery4 from './components/solarpage/pages/Battery4.tsx';
+import Battery5 from './components/solarpage/pages/Battery5.tsx';
+import Battery6 from './components/solarpage/pages/Battery6.tsx';
+import Battery7 from './components/solarpage/pages/Battery7.tsx';
 
 function App() {
   function CloseFirst(){
@@ -56,6 +70,20 @@ function App() {
               <Route path='/javascript/raspberrypi' element={<Raspi/>}></Route>
             <Route path='/solar' element={<Solar/>}></Route>
               <Route path='/solar/phothon' element={<Solar1/>}></Route>
+              <Route path='/solar/pn' element={<Solar2/>}></Route>
+              <Route path='/solar/semi' element={<Solar3/>}></Route>
+              <Route path='/solar/ener' element={<Solar4/>}></Route>
+              <Route path='/solar/model' element={<Solar5/>}></Route>
+              <Route path='/solar/lightt' element={<Solar6/>}></Route>
+              <Route path='/solar/parov' element={<Solar7/>}></Route>
+              <Route path='/solar/eff' element={<Solar8/>}></Route>
+              <Route path='/solar/capaciter' element={<Battery1/>}></Route>
+              <Route path='/solar/voltage' element={<Battery2/>}></Route>
+              <Route path='/solar/li' element={<Battery3/>}></Route>
+              <Route path='/solar/na' element={<Battery4/>}></Route>
+              <Route path='/solar/ss' element={<Battery5/>}></Route>
+              <Route path='/solar/fast' element={<Battery6/>}></Route>
+              <Route path='/solar/module' element={<Battery7/>}></Route>
             <Route path='/electric' element={<Elec/>}></Route>
               <Route path='/electric/howfrom' element={<HowFrom/>}></Route>
               <Route path='/electric/howlike' element={<HowLike/>}></Route>

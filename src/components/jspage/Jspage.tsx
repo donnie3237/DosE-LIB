@@ -13,6 +13,7 @@ import userin from './img/FEE.png'
 import server from './img/server.png'
 import mljs from './img/mljs.png'
 import iotjs from './img/iotjs.png'
+import rust from './img/rust.png'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 import HashLoader from 'react-spinners/HashLoader'
@@ -154,6 +155,13 @@ useEffect(()=>{
                 </div>
             </div>
             
+        </div>
+        <div className="sec sec4point1">
+            <img src={rust}/>
+            <h2>ภาษาอื่นๆ(Rust)</h2>
+            <NavLink to='/Javascript/rust-data'>Data Scient(วิทยาศาสตร์ข้อมูล)</NavLink>
+            <NavLink to='/Javascript/rust-cloud'>Cloud Computing(การจัดการระบบคลาวด์)</NavLink>
+            <NavLink to='/Javascript/rust-cs'>Cyber Security(การรันซัมแวร์และการป้องกัน)</NavLink>
         </div>
         <div className="sec sec5" >
             <h2>การเชื่อมโยงการเขียนโปรแกรม กับโซล่าร์เซลล์และไฟฟ้า</h2>
