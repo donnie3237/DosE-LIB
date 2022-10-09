@@ -269,7 +269,7 @@
 .first h2{
     text-align: left;
     width: 80%;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 .first button{
     width: 300px;
@@ -284,7 +284,7 @@
 .first h5{
     color: aliceblue;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     font-weight: 300;
     font-size: 14px;
 }

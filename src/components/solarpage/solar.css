@@ -79,6 +79,10 @@
     font-weight: 200;
     border-bottom: 1px solid rgb(65, 65, 65);
 }
+.mydet a:hover{
+    background-color: rgb(24, 164, 12);
+    transition: all 0.4s;
+}
 .banner{
     width: 100vw;
     position: absolute;
