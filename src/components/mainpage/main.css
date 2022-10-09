@@ -35,6 +35,9 @@
     position: absolute;
     top: 10px;
 }
+.detail h2{
+    -webkit-app-region:drag;
+}
 .detail a{
     margin-right: 5%;
     color: white;
