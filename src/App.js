@@ -30,6 +30,7 @@ import Future1 from './components/elec/pages/Future1.tsx';
 import Future2 from './components/elec/pages/Future2.tsx';
 import Future3 from './components/elec/pages/Future3.tsx';
 import Future4 from './components/elec/pages/Future4.tsx';
+import Solar1 from './components/solarpage/pages/Solar1.tsx';
 
 function App() {
   function CloseFirst(){
@@ -54,6 +55,7 @@ function App() {
               <Route path='/javascript/nodered' element={<NodeRed/>}></Route>
               <Route path='/javascript/raspberrypi' element={<Raspi/>}></Route>
             <Route path='/solar' element={<Solar/>}></Route>
+              <Route path='/solar/phothon' element={<Solar1/>}></Route>
             <Route path='/electric' element={<Elec/>}></Route>
               <Route path='/electric/howfrom' element={<HowFrom/>}></Route>
               <Route path='/electric/howlike' element={<HowLike/>}></Route>
