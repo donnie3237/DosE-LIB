@@ -191,4 +191,8 @@ details{
 }
 details p{
     padding: 0 15px;
+    pointer-events: none;
+}
+.details summary{
+    cursor: pointer;
 }
