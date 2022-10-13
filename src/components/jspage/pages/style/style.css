@@ -1,6 +1,7 @@
 .jsmain{
     background-color: black;
     min-height: 90vh;
+    padding-bottom: 10vh;
 }
 .jsheader{
     color: rgb(0, 0, 0);
@@ -12,7 +13,6 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    position: sticky;
     top: 0;
 }
 .jscontents p{
@@ -21,6 +21,10 @@
     text-align: justify;
 }
 .jscontents h2{
+    color: white;
+    margin: 30px 7%;
+}
+h3{
     color: white;
     margin: 30px 7%;
 }

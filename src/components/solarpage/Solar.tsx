@@ -8,9 +8,9 @@ import {NavLink} from 'react-router-dom'
 import 'aos/dist/aos.css'
 import vdotitle from './img/2022-09-27_1664257960589.mp4'
 import AOS from 'aos'
-import { BarLoader } from 'react-spinners'
 AOS.init();
-
+let x:string ="dose"
+console.log(x)
 
 function Solar() {
   const [loading, setLoading] = useState(false);

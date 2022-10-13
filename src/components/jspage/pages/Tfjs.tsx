@@ -6,7 +6,11 @@ function Tfjs() {
         <div className="jsheader">TensorflowJS</div>
         <div className="jscontents">
             <h2>What is TensorflowJS?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ut quo molestiae blanditiis, nemo minus magni officia unde explicabo quidem voluptatem veritatis ex optio consequatur esse beatae, qui veniam vel. Rerum impedit debitis nisi cum, incidunt autem, soluta officia quidem at magnam earum dignissimos. Possimus recusandae suscipit modi dolor tempora.</p>
+            <p>เทนเซอร์โฟล์ว JS คือ เพรมเวอร์คสำหรับMachine learning ที่พัฒนาแบบopen source ของบริษัทGoogle ที่วางบนรากฐาน Keras และแจมๆกับ pytorch เล็กน้อย มันเป็นการทำMacvine learning ในรูปแบบ WebGL ถ้าหากคุรทำเว็บไซต์เป็นจะทำให้คุณใช้ TFJS ได้ง่ายขึ้น เพราะมันรันระบบในรูปแบบเว็บไซต์</p>
+            <h3>แนวคิด</h3>
+            <p>อย่างแน่นอนว่าmachine learning มันมีแนวคิดมาจาก Neural Network หรือการจำลองการทำงานของสมองมนุษย์ ในการตัดสินใจและเข้าใจสิ่งต่างๆ</p>
+            <h3>Big data</h3>
+            <p>แน่นอนว่า ข้อมูลขนาดใหญ่จะทำให้ โมเดล machine learning ของเรานั้น แม่นยำและมีประสิทธิภาพ ยิ่งขึ้น เพราะมันเรียนรู้จากข้อมูลที่เราป้อนเข้าไป และประสิทธิภาพอาจขึ้นอยู่กับความแรงของเครื่องด้วย ถ้าเครื่องดี ข้อมูลเยอะ อาจทำงานยากๆให้ง่ายได้ เช่น วินิจฉัยโรคผู้ป่วยได้ หลายล้านรายการต่อวัน ซึ่งส่งผลดีทำให้คน ไม่ต้องรอผลวินิจฉัยโรคนาน และเข้าถึงบริการด้านสุขภาพได้อย่างรวดเร็ว แม่นยำ และมีประสิทธิภาพสูง</p>
         </div>
     </div>
   )
