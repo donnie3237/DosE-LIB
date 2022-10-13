@@ -18,7 +18,7 @@
 .jscontents p{
     color: white;
     margin: 30px 7%;
-    text-align: justify;
+    text-align:inherit;
 }
 .jscontents h2{
     color: white;

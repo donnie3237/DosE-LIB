@@ -45,6 +45,7 @@ import Battery4 from './components/solarpage/pages/Battery4.tsx';
 import Battery5 from './components/solarpage/pages/Battery5.tsx';
 import Battery6 from './components/solarpage/pages/Battery6.tsx';
 import Battery7 from './components/solarpage/pages/Battery7.tsx';
+import News from './components/solarpage/pages/News.tsx';
 
 function App() {
   function CloseFirst(){
@@ -69,6 +70,7 @@ function App() {
               <Route path='/javascript/nodered' element={<NodeRed/>}></Route>
               <Route path='/javascript/raspberrypi' element={<Raspi/>}></Route>
             <Route path='/solar' element={<Solar/>}></Route>
+              <Route path='solar/news' element={<News/>}></Route>
               <Route path='/solar/phothon' element={<Solar1/>}></Route>
               <Route path='/solar/pn' element={<Solar2/>}></Route>
               <Route path='/solar/semi' element={<Solar3/>}></Route>

@@ -14,3 +14,11 @@
 .main-solar p{
     color: white;
 }
+.news{
+    width: 100vw;
+    height: 100vh;
+}
+.news iframe{
+    height: 100%;
+    width: 100%;
+}

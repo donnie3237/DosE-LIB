@@ -9,8 +9,7 @@ import 'aos/dist/aos.css'
 import vdotitle from './img/2022-09-27_1664257960589.mp4'
 import AOS from 'aos'
 AOS.init();
-let x:string ="dose"
-console.log(x)
+
 
 function Solar() {
   const [loading, setLoading] = useState(false);
@@ -48,6 +47,7 @@ useEffect(()=>{
             <h1>Renewable Energy </h1>
             <p>Energy for the future</p>
             <p>Dr.dose(ผู้ปกครองดาวนาเม็ก)</p>
+            <NavLink to="/solar/news">ติดตามข่าวสารเพิ่มเติม</NavLink>
           </div>
             <div className="mydet" data-aos-duration='1000' data-aos='fade-left'>
               <img src={solar} alt="" />
