@@ -1,0 +1,32 @@
+.catagory{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.catagory h1{
+    color: white;
+}
+.catalist{
+    background-color: gray;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+
+}
+.catalist a{
+    margin:0 7%;
+    display: flex;
+    justify-content: center;
+    padding:5px 0;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.catalist a:hover{
+    background-color: green;
+    transition: all 0.5s;
+}

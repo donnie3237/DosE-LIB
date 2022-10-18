@@ -1,6 +1,5 @@
 import {React,useState,useEffect} from 'react'
 import './elec.css'
-import nkl from './nikolaTasla.png'
 import faraday from './Faraday-4.png'
 import frank from './frank.jpg'
 import volta from './Alessandro_Volta.jpeg'
@@ -35,7 +34,6 @@ useEffect(()=>{
               <div className="mmel erir">
                 <video src={myVideo} autoPlay muted loop></video>
                 <p>Welcome To Electric World!!</p>
-                <img src={nkl} alt="" />
               </div>
               <div className="intro erir" id='intro' data-aos='zoom-left-up' data-aos-duration='1500'>
                 

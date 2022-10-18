@@ -46,6 +46,7 @@ import Battery5 from './components/solarpage/pages/Battery5.tsx';
 import Battery6 from './components/solarpage/pages/Battery6.tsx';
 import Battery7 from './components/solarpage/pages/Battery7.tsx';
 import News from './components/solarpage/pages/News.tsx';
+import MyNote from './components/mainpage/MyNote.tsx';
 
 function App() {
   function CloseFirst(){
@@ -60,6 +61,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Mainpage/>}></Route>
             <Route path='/home' element={<Mainpage/>}></Route>
+            <Route path='/myNote' element={<MyNote/>}></Route>
             <Route path='/javascript' element={<Jspage/>}></Route>
               <Route path='/javascript/react' element={<Reactt/>}></Route>
               <Route path='/javascript/next' element={<Next/>}></Route>

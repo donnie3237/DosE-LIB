@@ -17,6 +17,7 @@
 .news{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 .news iframe{
     height: 100%;

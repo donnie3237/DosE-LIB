@@ -99,7 +99,7 @@ function Mainpage() {
               </div>
               <div className="bline2">
                 <div data-aos='zoom-in'  className="book book3"><a href="https://drive.google.com/drive/folders/18JyenfOoeaU0UoHrXzVB2U-nTbxzVZMM?usp=sharing" target='blank'>Javascript</a></div>
-                <div  data-aos='zoom-in' className="book book4"><a href="">more</a></div>
+                <div  data-aos='zoom-in' className="book book4"><NavLink to='/mynote'>My Note</NavLink></div>
               </div>
             </div>
           </div>
