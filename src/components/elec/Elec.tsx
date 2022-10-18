@@ -9,7 +9,7 @@ import HashLoader from 'react-spinners/HashLoader'
 import {NavLink} from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import myVideo from './vdo.mp4'
+import nkl from './nkl.jpg'
 AOS.init();
 
 function Elec() {
@@ -32,7 +32,7 @@ useEffect(()=>{
       <div className="cropeiei">
           <div className="contentelec">
               <div className="mmel erir">
-                <video src={myVideo} autoPlay muted loop></video>
+                
                 <p>Welcome To Electric World!!</p>
               </div>
               <div className="intro erir" id='intro' data-aos='zoom-left-up' data-aos-duration='1500'>
@@ -91,22 +91,27 @@ useEffect(()=>{
                   <div className="details">
                   <details>
                     <summary>Nikola Tesla</summary>
+                     <img src={nkl} alt="" />
                     <p>นิโคล่า เทสล่า ทุกคนอาจรู้จักกันในนามของชายผู้พัฒนาระบบกระแสสลับ และมอเตอร์ไฟฟ้า นอกจากนี้เขายังพัฒนาสิ่งอื่นๆด้วยเช่น การเอกซเรย์ การบังคับเรือด้วยรีโมทวิทยุจากคลื่นแม่เหล็กไฟฟ้า และระบบอื่นๆอีกมากมาย เขาเป็นนักประดิษฐิ์ที่เยี่ยมยอดมาก ชื่อของเขาอยู่บนหน่วยความเข้มสนามแม่เหล็ก(เทสล่า,T)</p>
                   </details>
                   <details>
                     <summary>Alexandro Volta</summary>
+                    <img src={volta} alt="" />
                     <p>อเล็กซานโดร โวลตา เป็นชายผู้เปลี่ยนแปลงวงการไฟฟ้าอีกคนหนึ่ง ที่อธิบายเรื่องของความต่างศักย์ไฟฟ้าหรือแรงดันไฟฟ้า เขาคิดค้นแบตเตอรี่ก้อนแรก ที่ชื่อว่า โวลตาอิกพาย และชื่อของเขาถูกตั้งเป็นหน่วยของความต่างศักย์หรือแรงดันไฟฟ้า มีหน่วยเป็น(โวลต์,volt)</p>
                   </details>
                   <details>
                     <summary>Benjamin Franklin</summary>
+                    <img src={frank} alt="" />
                     <p>เบญจามิน แฟรงคลิน เราอาจพบเขาได้ในธนบัตร 100ดอลล่าร์US เพราะเขาเป็นผู้เริ่มก่อตั้งประเทศสหรัฐอเมริกา และมีผลงานด้านไฟฟ้าคือ ส่งว่าวไปเป็นสายล่อฟ้า และคิดค้นระบบสายดิน สำหรับป้องกันอันตรายจากฟ้าผ่า และเขายังเป็นผู้ค้นพบไฟฟ้ากระแสสลับอีกด้วย</p>
                   </details>
                   <details>
                     <summary>Elon Musk</summary>
+                    <img src={elon2} alt="" />
                     <p>อีลอน มักส์ ชายผู้ที่ร่ำรวยที่สุดในยุค2022นี้ เขามีส่วนร่วมในการผลักดัน รถยนต์ไฟฟ้า หุ่นยนต์HumanoidOptimus รถไฟฟ้าระบบความเร็วสูง(hyperloop) และการเชื่อมไฟฟ้าเข้ากับสมองมนุษย์(Neuralink) อย่างแน่นอน เขารวมทักษะการเขียนโปรแกรม+พลังงาน+ไฟฟ้า เข้าด้วยกันได้อย่างน่าเหลือเชื่อ</p>
                   </details>
                   <details>
                     <summary>Michael Faraday</summary>
+                    <img src={faraday} alt="" />
                     <p>ไมเคิล ฟาราเดย์ ชายผู้คิดค้นวิธีผลิตกระแสไฟฟ้าได้สำเร็จ ด้วยการนำขดลวดวิ่งตัดผ่านสนามแม่เหล็ก หรือสิ่งที่เรารู้จักกันในชื่อ ไดนาโม(Dinamo) นี่คือการค้นพบครั้งยิ่งใหญ่ในประวัติศาสตร์ของไฟฟ้า</p>
                   </details>
                   </div>

@@ -1,13 +1,13 @@
 .mmel{
     height: 90vh;
     width: 100vw;
-    background:white;
+    background:url(./bg.jpg);
     overflow: hidden;
     position: relative;
     background-size: cover;
-}
-.mmel video{
-    height: 100%;
+    background-attachment: fixed;
+    z-index: -2;
+    background-position: center;
 }
 .mmel p{
     font-size: 25px;
@@ -170,8 +170,8 @@
 }
 .nkl{
     width: 100vw;
-    height: 200px;
-    background: url(./nikola.jpg);
+    height: 65vh;
+    background: url(./nkl.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -195,4 +195,8 @@ details p{
 }
 .details summary{
     cursor: pointer;
+}
+.details img{
+    width: 50vw;
+    margin:5vh 20vw ;
 }
