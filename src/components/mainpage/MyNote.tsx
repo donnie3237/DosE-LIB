@@ -9,12 +9,12 @@ function MyNote() {
             <h1>สารบัญ</h1>
         </div>
         <div className="catalist">
-            <NavLink to='list1'>list1</NavLink>
-            <NavLink to='list1'>list2</NavLink>
-            <NavLink to='list1'>list3</NavLink>
-            <NavLink to='list1'>list4</NavLink>
-            <NavLink to='list1'>list5</NavLink>
-            <NavLink to='list1'>list6</NavLink>
+            <NavLink to='list1'>องค์ประกอบวงจรไฟฟ้า</NavLink>
+            <NavLink to='list1'>การวิเคราะห์วงจร</NavLink>
+            <NavLink to='list1'>อุปกรณ์ไฟฟ้าเชิงกล</NavLink>
+            <NavLink to='list1'>ระบบคอมพิวเตอร์ฝังตัว</NavLink>
+            <NavLink to='list1'>การออกแบบเเละพัมนาซอฟต์แวร์</NavLink>
+            <NavLink to='list1'>การต่อพ่วงและอินเตอเฟสกับเวลา</NavLink>
         </div>
     </>
   )

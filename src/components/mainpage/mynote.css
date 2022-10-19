@@ -16,14 +16,14 @@
 
 }
 .catalist a{
-    margin:0 7%;
+    margin:5px 7%;
     display: flex;
     justify-content: center;
     padding:5px 0;
     border-bottom: 1px solid black;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 .catalist a:hover{
