@@ -29,3 +29,27 @@ h3{
     color: white;
     margin: 30px 7%;
 }
+.therminal{
+    background-color: rgb(60, 60, 58);
+    height: 40px;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.therminal p{
+    color: rgb(255, 253, 253);
+    margin: 0;
+    margin-left: 18px;
+    font-size: 0.8rem;
+}
+.therminal .comment{
+    color: red;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+.t2{
+    margin-bottom: 50px;
+}

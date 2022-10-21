@@ -34,7 +34,7 @@
 }
 .intro{
     height: 300px;
-    background-color: #000;
+    background-color: rgb(12, 12, 12);
     display: flex;
     flex-direction: column;
     position: relative;
@@ -52,6 +52,7 @@
     text-decoration: none;
     color: white;
     border-bottom: 1px solid rgb(105, 104, 104);
+    padding-bottom:5px ;
 }
 .ei{
     display: flex;
@@ -75,6 +76,7 @@
     text-decoration: none;
     border-bottom: 1px solid rgb(206, 206, 206);
     color: rgb(255, 255, 255);
+    padding-bottom: 5px;
 }
 .eir{
     display: flex;

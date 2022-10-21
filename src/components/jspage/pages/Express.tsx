@@ -11,10 +11,36 @@ function Express() {
             <p>cors คือ lib ที่น่าสนใจ//หากคุณไม่อยากติดบัคอ่ะนะ มันเอาไว้ใช้ในการอนุญาต การ ดึงข้อมูลข้ามเว็บไซต์ หรือ การดึงapi จากแหล่งอื่นมานั่นเอง ติดตั้งโดย "npm i cors" หลังติดตั้งมา อย่าลืมใช้พี่แกด้วยหล่ะ โดยกำหนดตัวแปร const cors =require('cors') และใช้ app.use(cors())
               ส่วน method app คืออะไร ดูได้ที่หัวข้อ  basic
             </p>
+            <div className="therminal">
+              <p>npm i cors</p>
+              <div className="comment">
+                //สำหรับติดตั้งCors
+              </div>
+            </div>
+            <div className="therminal">
+              <p>const cors = require('cors')</p>
+              
+            </div>
+            <div className="therminal"><p>app.use(cors())</p></div>
             <h3>Nodemon</h3>
             <p>Nodemon เป็น lib ตัวช่วยที่จะทำให้คุณนั้นพัฒนาserver ได้ดี และรวดเร็วยิ่งขึ้น เพราะ มันจะ อัพเดทการเปลี่ยนแปลงไปยังlocalhost ทุกๆครั้งที่มีการเปลี่ยนแปลงไฟล์ ติดตั้งได้โดยใช้ "npm i nodemon" ใช้พี่แกได้ โดย ไปใส่สคริปต์ ที่ไฟล์ Package.json ของฝั่งServer "start":"nodemon ("ชื่อไฟล์ของหน้าหลักเซิฟเวอร์")" หลังจากนั้น ใช้ npm start จากฝั่งของเซิฟเวอร์</p>
+            <div className="therminal">
+              <p>npm i nodemon</p>
+              <div className="comment">
+                //สำหรับติดตั้งโนดมอน
+              </div>
+            </div>
+            <div className="therminal">
+              <p>"start"='nodemon index.js'</p>
+            </div>
             <h3>dotenv</h3>
             <p>dotenv จะช่วยซ่อน localhost รหัสฐานข้อมูล หรือสิ่งต่างๆที่ต้องการซ่อนไว้ เพื่อป้องกันการถูกแฮ็ค ติดตั้งด้วยคำสั่ง "npm i dotenv" และเรียกใช้พี่แกโดย require('dotenv').config(); และต้องใช้พี่ในบรรทัดบนสุดของโค้ด เพราะมันจะเออเร่อได้ การเรียกใช้ตัวแปรที่เก็บทำได้โดย "process.env.('ชื่อตัวแปรในไฟล์.env')"</p>
+            <div className="therminal">
+              <p>npm i dotenv</p>
+              <div className="comment">
+                //สำหรับติดตั้งดอทอีเอนวี
+              </div>
+            </div>
             <h3>Router</h3>
             <p>router ฝั่งServerจะเป็นตัวกำหนดว่า จะให้front-end เรียกfetchด้วยลิงค์ไหน และมันกำลังจะทำอะไรอยู่ในrouteนั้นๆ โดยมันจะอยู่หลังจาก"/"ของไซต์หลัก เช่น www.doseeiei.com/login</p>
             <h3>model</h3>
@@ -25,6 +51,12 @@ function Express() {
             <p>โดยเบสิคเลย เราจะต้องมีไฟล์หลัก ส่วนใหญ่มักชื่อ index.js หรือ server.js แต่มันไม่ฟิกนะ จะใช้ชื่ออะไรก็ได้ แต่ไปใส่ใน Package.json ให้ถูกละกัน เราจะต้องเรียก Express โดย const express =require('express'), const app =express();//เป็นการเรียกใช้ฟังก์ชั่น Express และต้องมีพอร์ต โดยกำหนดตัวแปร const PORT = ('เลขพอร์ต')หรือ process.env.('ตัวแปร') หรือใช้2อย่างกันเซิฟล่มโดย ใช้เครื่องหมาย"||"คั่นไว้ 
               เรียกใช้โดย app.listen("ตัวแปรพอร์ต" หรือใส่เลขไปโต้งๆได้เลย)เพื่อ กำหนด localhosePort ของ server และอาจทดสอบว่ามันเวิร์คไหมด้วยการลอง ใช้ app.get('/', send("hello server!!")) และลองรัน "npm start"จากฝั่งเซิฟเวอร์ดู และเข้าบราวเซอร์ เข้าลิงค์ localhost:("หมายเลขของพอร์ตที่สั่งรัน")
             </p>
+            <div className="therminal">
+              <p>npm init</p>
+            </div>
+            <div className="therminal t2">
+                <p>npm i express cors nodemon </p>
+            </div>
         </div>
     </div>
   )

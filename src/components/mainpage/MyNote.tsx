@@ -15,6 +15,9 @@ function MyNote() {
             <NavLink to='list1'>ระบบคอมพิวเตอร์ฝังตัว</NavLink>
             <NavLink to='list1'>การออกแบบเเละพัมนาซอฟต์แวร์</NavLink>
             <NavLink to='list1'>การต่อพ่วงและอินเตอเฟสกับเวลา</NavLink>
+            <NavLink to='list1'>หลักการทำงานของระบบเว็บไซต์</NavLink>
+            <NavLink to='list1'>หลักการทำงานของระบบฐานข้อมูลและML</NavLink>
+            <NavLink to='list1'>หลักการของแบตเตอรี่และโซล่าร์เซลล์</NavLink>
         </div>
     </>
   )
