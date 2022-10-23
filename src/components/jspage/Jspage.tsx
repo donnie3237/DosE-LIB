@@ -29,9 +29,11 @@ AOS.init();
 function Jspage() {
     const notify = () => toast.warn("ระบบนี้ยังใช้งานไม่ได้!");
     const [loading, setLoading] = useState(false);
-    function eiei(){
-        setLoading = true
-    }
+useEffect(()=>{
+  setLoading(true);
+  setTimeout(()=>{setLoading(false);}
+  ,1400)
+},[])
   return (
     <div className="contain"  >
         {loading? 
@@ -42,7 +44,7 @@ function Jspage() {
       />
     </div>
       :
-      <div className="cropeiei" id='load' onLoad={eiei}> 
+      <div className="cropeiei"> 
         <div className="sec sec0">
             <div className="fj">
                 <div className="mainjsp">

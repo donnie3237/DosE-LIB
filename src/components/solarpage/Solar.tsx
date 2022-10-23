@@ -13,11 +13,13 @@ AOS.init();
 
 function Solar() {
   const [loading, setLoading] = useState(false);
-  function eiei1(){
-    setLoading =true
-  }
+useEffect(()=>{
+  setLoading(true);
+  setTimeout(()=>{setLoading(false);}
+  ,1400)
+},[])
   return (
-    <div className='solar' onLoad={eiei1}>
+    <div className='solar'>
       {loading? 
         <div className="load">
           <HashLoader
