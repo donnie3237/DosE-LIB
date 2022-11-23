@@ -22,7 +22,7 @@ function Tfjs() {
             <div className="therminal">
               <p>npm i @tensorflow/tfjs</p>
               <div className="comment">
-                //สำหรับเริ่มติดตั้งTensorflowJS
+                //สำหรับเริ่มติดตั้งTFJS
               </div>
             </div>
             <h3>ติดตามข่าวสาร</h3>
