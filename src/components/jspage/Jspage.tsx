@@ -159,9 +159,9 @@ useEffect(()=>{
         <div className="sec sec4point1">
             <img src={rust}/>
             <h2>ภาษาอื่นๆ(Rust)</h2>
-            <NavLink to='/Javascript/rust-data'>Data Scient(วิทยาศาสตร์ข้อมูล)</NavLink>
-            <NavLink to='/Javascript/rust-cloud'>Cloud Computing(การจัดการระบบคลาวด์)</NavLink>
-            <NavLink to='/Javascript/rust-cs'>Cyber Security(การรันซัมแวร์และการป้องกัน)</NavLink>
+            <NavLink to='/Javascript/dsci'>Data Scient(วิทยาศาสตร์ข้อมูล)</NavLink>
+            <NavLink to='/Javascript/cloud'>Cloud Computing(การจัดการระบบคลาวด์)</NavLink>
+            <NavLink to='/Javascript/cyber'>Cyber Security(การรันซัมแวร์และการป้องกัน)</NavLink>
         </div>
         <div className="sec sec5" >
             <h2>การเชื่อมโยงการเขียนโปรแกรม กับโซล่าร์เซลล์และไฟฟ้า</h2>

@@ -47,13 +47,14 @@ import Battery6 from './components/solarpage/pages/Battery6.tsx';
 import Battery7 from './components/solarpage/pages/Battery7.tsx';
 import News from './components/solarpage/pages/News.tsx';
 import MyNote from './components/mainpage/MyNote.tsx';
+import Cloud from './components/jspage/pages/Cloud.tsx';
+import DSci from './components/jspage/pages/DSci.tsx';
+import Cyber from './components/jspage/pages/Cyber.tsx';
 
 function App() {
   function CloseFirst(){
     const close = document.getElementById('close');
-
     close.style.display = 'none'
-
   }
   return (
     <div className="App">
@@ -71,6 +72,9 @@ function App() {
               <Route path='/javascript/tensorflowjs' element={<Tfjs/>}></Route>
               <Route path='/javascript/nodered' element={<NodeRed/>}></Route>
               <Route path='/javascript/raspberrypi' element={<Raspi/>}></Route>
+              <Route path='/javascript/dsci' element={<DSci/>}></Route>
+              <Route path='/javascript/cloud' element={<Cloud/>}></Route>
+              <Route path='/javascript/cyber' element={<Cyber/>}></Route>
             <Route path='/solar' element={<Solar/>}></Route>
               <Route path='solar/news' element={<News/>}></Route>
               <Route path='/solar/phothon' element={<Solar1/>}></Route>
