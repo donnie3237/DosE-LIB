@@ -5,7 +5,6 @@
   position: relative;
   object-fit: cover;
   font-family: monospace;
-  overflow-x: hidden;
 }
 .crophead{
   position: fixed;
