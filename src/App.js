@@ -52,10 +52,6 @@ import DSci from './components/jspage/pages/DSci.tsx';
 import Cyber from './components/jspage/pages/Cyber.tsx';
 
 function App() {
-  function CloseFirst(){
-    const close = document.getElementById('close');
-    close.style.display = 'none'
-  }
   return (
     <div className="App">
         <Router>
