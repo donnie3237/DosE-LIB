@@ -9,7 +9,7 @@
 <h2 align="center">Status</h2>
 <div align="center">
 <p>สำเร็จเเล้ว28%</p>
-<a href="https://drive.google.com/file/d/11Zlc5mrILPwzEMqaTG03hLkuUypNR1cp/view?fbclid=IwAR1LGs9dHqrHPYtnPvIGjOzQHZHTWmasI4uGI1t5fD6UKvyNlxYhrdA8CE4">Dose.apk</a>
+<a href="https://drive.google.com/file/d/1UotEh4ZCtyWp7B7tY3CrBkcGEs2S8s50/view?usp=share_link">Mobile App (Android,IOS)</a>
  <br/>
-<a href="https://drive.google.com/file/d/1zuf8016CXiCdj4F3mirtTgIJ8hW3HXIE/view?fbclid=IwAR0j-_Na8jNC3gN8uCGujEW7wKzXHauxpUxNa-KexQ0Ph5Ir76oFUtoVfhc">Windows,MacOS,linux</a><br/>
+<a href="https://drive.google.com/file/d/1FsXXVSqk2kuI3TJvQO0beaSuav3RjE1C/view?usp=share_link">DesktopApp(Windows,MacOS,linux)</a><br/>
 </div>
