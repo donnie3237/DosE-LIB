@@ -1,5 +1,6 @@
-<h1>DOSE APK</h1>
-<h4>Knowledge Electric GreenEnergy and Coding</h4>
+<h1 align="center">DosE-LIB</h1>
+<br/>
+<h3 align="center">Knowledge Electric GreenEnergy and Coding</h3>
 <div>
 <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="45" height="45"/>
 <img src="https://miro.medium.com/max/2400/0*BRl-uL7N9LF-1hiD.png" alt="Netlify" width="45" height="45"/>
