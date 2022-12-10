@@ -1,5 +1,5 @@
 import {React,useState,useEffect} from 'react'
-import './elec.css'
+import './elec.scss'
 import faraday from './img/Faraday-4.png'
 import frank from './img/frank.jpg'
 import volta from './img/Alessandro_Volta.jpeg'

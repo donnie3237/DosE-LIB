@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react'
-import './js.css'
+import './js.scss'
 import jslogo from './img/logojs.png'
 import reactpic from './img/react.png'
 import electron from './img/electron.png'

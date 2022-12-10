@@ -1,5 +1,5 @@
 import React from 'react'
-import './main.css'
+import './main.scss'
 import { NavLink } from 'react-router-dom';
 import gith from './img/IMG_20220915_225203.jpg'
 import twtr from './img/Screenshot_2022-09-15-22-53-09-77_f9ee0578fe1cc94de7482bd41accb329.jpg'

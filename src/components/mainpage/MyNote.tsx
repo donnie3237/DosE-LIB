@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './mynote.css'
+import './mynote.scss'
 
 function MyNote() {
   return (
