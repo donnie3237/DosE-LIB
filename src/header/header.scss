@@ -6,21 +6,20 @@ nav{
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid black;
-}
-.header{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header svg{
-    color:black;
-}
-
-.header.active svg{
-    color: rgb(255, 255, 255);
-}
-.header.active{
-    border-top: 3px solid white;
+    .header{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            color:black;
+        }
+        &.active{
+            border-top: 3px solid white;
+            svg{
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
 }

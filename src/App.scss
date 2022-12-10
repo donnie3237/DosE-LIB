@@ -6,6 +6,15 @@
   object-fit: cover;
   font-family: monospace;
   overflow: hidden;
+  .crophead{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    height: 10vh;
+  }
+  .hidd{
+    display: none;
+  }
 }
 .crophead{
   position: fixed;
