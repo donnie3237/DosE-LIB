@@ -2,7 +2,7 @@
 .mmel{
     height: 90vh;
     width: 100vw;
-    background:url(./bg.jpg);
+    background:url(./img/bg.jpg);
     overflow: hidden;
     position: relative;
     background-size: cover;
@@ -141,22 +141,22 @@
     border-radius: 10px;
 }
 .a{
-    background: url(./warden.jpg);
+    background: url(./img/warden.jpg);
     background-size: cover;
     background-position: center;
 }
 .b{
-    background: url(./iot.jpg);
+    background: url(./img/iot.jpg);
     background-size: cover;
     background-position: center;
 }
 .c{
-    background: url(./neural.jpeg);
+    background: url(./img/neural.jpeg);
     background-size: cover;
     background-position: center;
 }
 .d{
-    background: url(./f1.jpg);
+    background: url(./img/f1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -174,7 +174,7 @@
 .nkl{
     width: 100vw;
     height: 65vh;
-    background: url(./nkl.jpg);
+    background: url(./img/nkl.jpg);
     background-size: cover;
     background-position: center;
 }

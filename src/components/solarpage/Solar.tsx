@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
 import solar from './img/solar.jpg'
 import batterry from './img/batterry.jpg'
-import './solar.css'
+import './solar.scss'
 import {Bar} from 'react-chartjs-2'
 import HashLoader from 'react-spinners/HashLoader'
 import {NavLink} from 'react-router-dom'

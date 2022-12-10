@@ -1,15 +1,15 @@
 import {React,useState,useEffect} from 'react'
 import './elec.css'
-import faraday from './Faraday-4.png'
-import frank from './frank.jpg'
-import volta from './Alessandro_Volta.jpeg'
-import elon from './Elon-Musk-PNG-Isolated-Photo.png'
-import elon2 from './elon.jpg'
+import faraday from './img/Faraday-4.png'
+import frank from './img/frank.jpg'
+import volta from './img/Alessandro_Volta.jpeg'
+import elon from './img/Elon-Musk-PNG-Isolated-Photo.png'
+import elon2 from './img/elon.jpg'
 import HashLoader from 'react-spinners/HashLoader'
 import {NavLink} from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import nkl from './nkl.jpg'
+import nkl from './img/nkl.jpg'
 AOS.init();
 
 function Elec() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './err.css'
+import './err.scss'
 import { NavLink } from 'react-router-dom'
 
 function Err() {
