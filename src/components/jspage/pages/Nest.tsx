@@ -12,6 +12,8 @@ function Nest() {
             <p>TypeScript คือภาษาที่พัฒนาต่อมาจากJavascript มันมีข้อแตกต่างคือมันมีการประกาศประเภทของตัวแปร :number สำหรับตัวเลข :array สำหรับชุดข้อมูล :string สำหรับข้อความ และ :any สำหรับอะไรก้ได้  และมีแท็กเพิ่ม เช่น enum typeOf เป็นต้น แต่จะเขียนJavaScript เพียวๆ ลงในTypeScript ก็ได้นะ</p>
             <h3>Server system</h3>
             <p>ระบบเซิฟเวอร์จะมีอะไรคล้ายๆกัน เช่น รันบนlocalhost อะไร หลักการทำงานประมาณไหน เช่น การ Post Get Update Delete ดูหลักการเบื้องต้นได้ที่ ExpressJS <NavLink to="/javascript/express">ExpressJS</NavLink></p>
+            <h3>ติดตามข่าวสารเพิ่มเติม</h3>
+            <p>Website : www.nestjs.com <br />Twitter : @nestframework</p>
         </div>
     </div>
   )

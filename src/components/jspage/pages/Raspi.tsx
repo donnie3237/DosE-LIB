@@ -10,7 +10,7 @@ function Raspi() {
             <h3>Version,model</h3>
             <p>ในปี 2022 raspberryPi มี 4เวอร์ชั่นแล้ว แถมยังมี โมเดล pico,A,B,B+ ซึ่ง โมเดล 4 B+ มีแรมมากถึง 16GB เลยทีเดียว แถมยังเป็นระบบปฏิบัติการLinux อีกด้วย</p>
             <h3>ติดตามข้อมูลเพิ่มเติม</h3>
-            <p>Website : www.raspberrypi.org <br /> Twitter : radpberryPi <br />Youtube : raspberrypi</p>
+            <p>Website : www.raspberrypi.org <br /> Twitter : raspberryPi <br />Youtube : raspberrypi</p>
         </div>
     </div>
   )

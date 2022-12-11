@@ -53,10 +53,16 @@ function Express() {
             </p>
             <div className="therminal">
               <p>npm init</p>
+              <div className="comment">//สำหรับการฝังราก</div>
             </div>
             <div className="therminal t2">
                 <p>npm i express cors nodemon </p>
+                <div className="comment">
+                  //สำหรับติดตั้งคร่าวๆ
+                </div>
             </div>
+            <h3>ติดตามข่าวสารเพิ่มเติม</h3>
+            <p>Website : www.expressjs.com <br />Twitter : @UseExpressJS</p>
         </div>
     </div>
   )
