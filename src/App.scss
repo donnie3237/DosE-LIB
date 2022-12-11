@@ -37,6 +37,11 @@
       position: fixed;
       flex-direction: column;
       top: 0;
-      background-color: aliceblue;
+      color: white;
+      background-color: rgb(246, 2, 2);
+      img{
+        height: 30vh;
+        border-radius: 50%;
+      }
   }
 }

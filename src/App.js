@@ -50,7 +50,7 @@ import MyNote from './components/mainpage/MyNote.tsx';
 import Cloud from './components/jspage/pages/Cloud.tsx';
 import DSci from './components/jspage/pages/DSci.tsx';
 import Cyber from './components/jspage/pages/Cyber.tsx';
-
+const Logo = require('./logo.png');
 function App() {
   return (
     <div className="App">
@@ -111,6 +111,7 @@ function App() {
             <Header/>
           </div>
           <div class="hidd">
+            <img src={Logo}></img>
             <div class="hid">เราไม่สนับสนุนอุปกรณ์ของคุณ</div>
             <div class="hid2">หรือคุณอาจกำลังใช้มือถือแนวนอน(กรุณาใช้แนวตั้ง)</div>
         </div>
