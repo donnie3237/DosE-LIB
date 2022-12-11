@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
-import './css/elecstyle.css'
+import './css/elecstyle.scss'
 function FounDer4() {
     const p =document.getElementById("p")
     const p1=document.getElementById("p1")
