@@ -56,14 +56,14 @@ useEffect(()=>{
                     <div className="flex-column">
                         <p>User interface Javascript. </p>
                         <p>ยูเซอร์อินเตอเฟส</p>
-                        <HashLink to='/javascript/#fe'>Client</HashLink>
+                        <HashLink smooth to='/javascript/#fe'>Client</HashLink>
                     </div>
                 </div>
                 <div className="back-end">
                     <div className="flex-column">
                         <p>Server Javascript. </p>
                         <p>การจัดการเซิร์ฟเวอร์</p>
-                        <HashLink to='/javascript/#be'>Server</HashLink>
+                        <HashLink smooth to='/javascript/#be'>Server</HashLink>
                     </div>
                     <img src={server} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
                 </div>
@@ -72,14 +72,14 @@ useEffect(()=>{
                     <div className="flex-column">
                         <p>AI and Machine learning</p>
                         <p>AI และ ปัญญาประดิษฐ์</p>
-                        <HashLink to='/javascript/#ml'>ML</HashLink>
+                        <HashLink smooth to='/javascript/#ml'>ML</HashLink>
                     </div>
                 </div>
                 <div className="iotrasp">
                     <div className="flex-column">
                         <p>Internet Of Things</p>
                         <p>เครื่องจักรกลอัจฉริยะ</p>
-                        <HashLink to='/javascript/#iot'>IOT</HashLink>
+                        <HashLink smooth to='/javascript/#iot'>IOT</HashLink>
                     </div>
                     <img src={iotjs} alt="" data-aos='zoom-in' data-aos-duration='1000'/>
                 </div>
