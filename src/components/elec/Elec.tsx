@@ -1,4 +1,4 @@
-import {React,useState,useEffect} from 'react'
+import React ,{useState,useEffect} from 'react'
 import './elec.scss'
 import faraday from './img/Faraday-4.png'
 import frank from './img/frank.jpg'
@@ -58,7 +58,7 @@ useEffect(()=>{
               </div>
               <div className="founder erir" id='founder' data-aos='zoom-left-up' data-aos-duration='1500'>
                   <h1>การค้นพบในอดีต</h1>
-                  <img src={faraday} alt="" data-aos='flip-left' data-aos-duration='1500'/>
+                  <img src={faraday} alt="faraday" data-aos='flip-left' data-aos-duration='1500'/>
                   <NavLink to='/electric/founder1' data-aos='fade-left' data-aos-duration='1000'>แบตเตอรี่ก้อนแรก</NavLink>
                   <NavLink to='/electric/founder2' data-aos='fade-left' data-aos-duration='1000'>เครื่องกำเนิดไฟฟ้าชิ้นแรก</NavLink>
                   <NavLink to='/electric/founder3' data-aos='fade-left' data-aos-duration='1000'>หม้อแปลงไฟฟ้าเครื่องแรก</NavLink>

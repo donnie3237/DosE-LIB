@@ -111,7 +111,7 @@ function App() {
             <Header/>
           </div>
           <div class="hidd">
-            <img src={Logo}></img>
+            <img src={Logo} alt="logo"></img>
             <div class="hid">เราไม่สนับสนุนอุปกรณ์ของคุณ</div>
             <div class="hid2">หรือคุณอาจกำลังใช้มือถือแนวนอน(กรุณาใช้แนวตั้ง)</div>
         </div>

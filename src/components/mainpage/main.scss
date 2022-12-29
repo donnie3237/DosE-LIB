@@ -1,46 +1,91 @@
 .mainp{
     width: 100vw;
     height: 100%;
-    min-height: 100vh;
     overflow-x: hidden;
-}
-.parallax{
-    height: 90vh;
-    width: 100vw;
-    background: url(./img/305848359_804645737625108_8966807087779226718_n.png);
-    background-color: black;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color:white;
-    display: flex;
-    object-fit: cover;
-    justify-content: center;
-}
-.parallax h2{
-    width: 50%;
-    text-align: center;
-    top: 0vh;
-    font-size: 20px;
-    z-index: 10;
-    margin: 0;
-}
-.detail{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    justify-content: space-between;
-    position: absolute;
-    top: 10px;
-}
-.detail a{
-    margin-right: 5%;
-    color: white;
-}
-.first p{
-    padding: 10%;
+    .parallax{
+        height: 90vh;
+        width: 100vw;
+        background: url(./img/305848359_804645737625108_8966807087779226718_n.png) no-repeat center fixed;
+        background-color: black;
+        background-size: 100%;
+        color:white;
+        display: flex;
+        object-fit: cover;
+        justify-content: center;
+        .first{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background-color: black;
+            z-index: 999;
+            position: fixed;
+            left: -100vw;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2{
+                text-align: left;
+                width: 80%;
+                margin: 20px 0;
+            }
+            button{
+                width: 80vw;
+                height: 5vh;
+                border: 1px solid white;
+                background-color: black;
+                color: aliceblue;
+                position: absolute;
+                bottom: 50px;
+            }
+            h5{
+                color: aliceblue;
+                width: 80vw;
+                margin: 20px 0;
+                font-weight: 300;
+                font-size: 14px;
+            }
+            table{
+                background-color: white;
+                color: black;
+                width: 80vw;
+                border-collapse: collapse;
+                tr{
+                    height: 50px;
+                }
+                .thead{
+                    background-color: rgb(32, 23, 23);
+                }
+                th{
+                    background-color: gray;
+                }
+                td{
+                    text-align: center;
+                    height: 30px;
+                    background-color: rgb(191, 191, 191);
+                }
+            }
+        }
+        .detail{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            width: 80vw;
+            justify-content: space-between;
+            position: absolute;
+            top: 10px;
+            h2{
+                width: 50%;
+                font-size: 20px;
+            }
+            div{
+                color: white;
+            }
+        }
+        p{
+            position: absolute;
+            bottom: 10vh;
+        }
+    }
 }
 .path{
     display: flex;
@@ -49,10 +94,37 @@
     flex-direction: column;
     width: 100vw;
     overflow-x: hidden;
-}
-.parallax p{
-    position: absolute;
-    bottom: 10vh;
+    background-size: cover;
+    a{
+        text-decoration: none;
+        color: black;
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+    .ene{
+        background:url(./img/solar.jpg);
+        background-size: cover;
+    }
+    .jss{
+        background:url(./img/js.png);
+        background-position-x: -120px;
+        background-position-y: center;
+        background-size: cover;
+    }
+    .thu{
+        background:url(./img/elec.jpg);
+        background-size: cover;
+    }
+    p{
+        padding: 20px 10vw;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
 }
 .about{
     height: 100%;
@@ -74,65 +146,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.parallax2 p{
-    position: sticky;
-    top: 45vh;
-    background-color: aliceblue;
-    width: 100vw;
-    text-align: center;
-    padding: 5vh 0;
-    font-size: 24px;
-    color: black;
-    font-weight: 700;
-    margin-bottom: 0vh;
-}
-.path .ene{
-    text-decoration: none;
-    color: black;
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.path .jss{
-    text-decoration: none;
-    color: black;
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.path .thu{
-    text-decoration: none;
-    color: black;
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.path p{
-    padding: 20px 10vw;
-    font-size: 18px;
-    text-align: center;
-    margin: 0;
-}
-.jss{
-    background:url(./img/js.png);
-    background-position-x: -120px;
-    background-position-y: center;
-    background-size: cover;
-}
-.ene{ background:url(./img/solar.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.thu{
-    background:url(./img/elec.jpg);
-    background-size: cover;
+    p{
+        position: sticky;
+        top: 45vh;
+        background-color: aliceblue;
+        width: 100vw;
+        text-align: center;
+        padding: 5vh 0;
+        font-size: 24px;
+        color: black;
+        font-weight: 700;
+        margin-bottom: 0vh;
+    }
 }
 .parallax1{
     height: 70vh;
@@ -203,11 +228,11 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-}
-.book a{
-    font-size: 1.3rem;
-    text-decoration: none;
-    color: aliceblue;
+    a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: aliceblue;
+    }
 }
 .bline1{
     display: flex;
@@ -254,63 +279,4 @@
     color: white;
     text-align: center;
     border-bottom: 2px solid red;
-}
-.first{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    background-color: rgb(5, 0, 3);
-    z-index: 999;
-    position: fixed;
-    left: -100vw;
-    flex-direction: column;
-    align-items: center;
-}
-.first h2{
-    text-align: left;
-    width: 80%;
-    margin: 20px 0;
-}
-.first button{
-    width: 300px;
-    height: 5vh;
-    border: 1px solid white;
-    background-color: black;
-    color: aliceblue;
-    position: absolute;
-    bottom: 50px;
-}
-
-.first h5{
-    color: aliceblue;
-    width: 80%;
-    margin: 20px auto;
-    font-weight: 300;
-    font-size: 14px;
-}
-.first table{
-    background-color: white;
-    color: black;
-    width: 80vw;
-    overflow-y: scroll;
-    height: 30vh;
-    border-collapse: collapse;
-}
-.first .thead{
-    background-color: rgb(32, 23, 23);
-
-}
-.first tr{
-    height: 50px;
-    border-left: 1px solid rgb(0, 0, 0);
-}
-.first th{
-    border: 1px solid black;
-    background-color: gray;
-}
-.first td{
-    border: 1px solid black;
-    text-align: center;
-    height: 30px;
-    background-color: rgb(191, 191, 191);
 }

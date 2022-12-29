@@ -2,22 +2,23 @@ import {useState,useEffect} from 'react'
 import solar from './img/solar.jpg'
 import batterry from './img/batterry.jpg'
 import './solar.scss'
-import {Bar} from 'react-chartjs-2'
 import HashLoader from 'react-spinners/HashLoader'
 import {NavLink} from 'react-router-dom'
 import 'aos/dist/aos.css'
-import vdotitle from './img/2022-09-27_1664257960589.mp4'
 import AOS from 'aos'
+import React from 'react'
+const vdotitle = require('./img/2022-09-27_1664257960589.mp4')
 AOS.init();
 
+type Props = {}
 
-function Solar() {
+const Solar = (props: Props) => {
   const [loading, setLoading] = useState(false);
-useEffect(()=>{
-  setLoading(true);
-  setTimeout(()=>{setLoading(false);}
-  ,1400)
-},[])
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{setLoading(false);}
+    ,1400)
+  },[])
   return (
     <div className='solar'>
       {loading? 
@@ -31,16 +32,8 @@ useEffect(()=>{
       <div className="cropeiei">
         <div className="mainsolar" data-aos-duration='1000' data-aos='zoom-in-up'>
           <video src={vdotitle} autoPlay loop muted></video>
-          <p  data-aos-duration='1500'>Welcome To Energy world!! <a> Cr:Tesla(Youtube)</a></p>
-          
+          <p  data-aos-duration='1500'>Welcome To Energy world!! <h1> Cr:Tesla(Youtube)</h1></p>
         </div>
-        {/* <Bar
-          data={
-            {
-              labels:[2021,2022]
-            }
-          }
-        /> */}
       <div className="fsolar">
         <div className="solarr">
           <div className="introsolar">
